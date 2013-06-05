@@ -12,6 +12,8 @@ Binary packet handler addresses are listed in devTool/Server/Packets/packetlist.
 Ignore the psuedo packet structure, that was a failed idapython attempt.
 
 
+
+
 [VIF]:
 very import files folder. Use these to save time REing.
 
@@ -20,8 +22,11 @@ ClientWindowed2.idc is a IDC script for IDA with Dephi names from IDR.
 http://www.speedyshare.com/NfFYr/ClientWindowed2.idb IDB for IDA with some naming
 
 
+
+
 [FileReader]:
 FileReader is a tool to attempt at reverse engineering the .atz and other file formats the game uses, with hope to create a sprite editor / map editor / etc.
+
 
 
 
@@ -29,7 +34,9 @@ FileReader is a tool to attempt at reverse engineering the .atz and other file f
 Website source with the webtrader.
 
 To enable webtrader set the IP and PORT in the trader.html inside the function
+
 	function connectWebsocket() {..
+	
 to your external IP and the port you using for webtrader in LKCamelot.
 
 
@@ -59,10 +66,12 @@ This is the port used for the web auction house.  Make sure it is open as well.
 Navigating:
 
 Server.cs starts the async listener. At line 187 the data stream is read and all packets are passed to the packet handler.
+
 	((IOClient)connection.Client).Parse(e);
 
 
 line 65 in io/IOClient.cs
+
 	HandleIncoming(packet);
 
 Handles incoming packets
