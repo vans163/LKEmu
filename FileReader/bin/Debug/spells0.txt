@@ -1,0 +1,2156 @@
+public class ItemRepair : Spell
+{
+	public override string Name { get { return "ITEM REPAIR"; } }
+	public override int SpellLearnedIcon { get { return 1; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ItemRepair()
+	{
+	}
+}
+
+public class Opening : Spell
+{
+	public override string Name { get { return "OPENING"; } }
+	public override int SpellLearnedIcon { get { return 1; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Opening()
+	{
+	}
+}
+
+public class StartingPoint : Spell
+{
+	public override string Name { get { return "STARTING POINT"; } }
+	public override int SpellLearnedIcon { get { return 6; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public StartingPoint()
+	{
+	}
+}
+
+
+public class Search : Spell
+{
+	public override string Name { get { return "SEARCH"; } }
+	public override int SpellLearnedIcon { get { return 5; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Search()
+	{
+	}
+}
+
+public class IceBag : Spell
+{
+	public override string Name { get { return "ICE BAG"; } }
+	public override int SpellLearnedIcon { get { return 73; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target2; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public IceBag()
+	{
+	}
+}
+
+public class Oblivion : Spell
+{
+	public override string Name { get { return "OBLIVION"; } }
+	public override int SpellLearnedIcon { get { return 8; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target2; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Oblivion()
+	{
+	}
+}
+
+public class ZigZag : Spell
+{
+	public override string Name { get { return "ZIG ZAG"; } }
+	public override int SpellLearnedIcon { get { return 21; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ZigZag()
+	{
+	}
+}
+
+public class ElectronicBall : Spell
+{
+	public override string Name { get { return "ELECTRONIC BALL"; } }
+	public override int SpellLearnedIcon { get { return 20; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target2; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ElectronicBall()
+	{
+	}
+}
+
+public class MoonLight : Spell
+{
+	public override string Name { get { return "MOON LIGHT"; } }
+	public override int SpellLearnedIcon { get { return 37; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public MoonLight()
+	{
+	}
+}
+
+public class FireBall : Spell
+{
+	public override string Name { get { return "FIRE BALL"; } }
+	public override int SpellLearnedIcon { get { return 12; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FireBall()
+	{
+	}
+}
+
+public class FlameWave : Spell
+{
+	public override string Name { get { return "FLAME WAVE"; } }
+	public override int SpellLearnedIcon { get { return 16; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FlameWave()
+	{
+	}
+}
+
+public class Lightning : Spell
+{
+	public override string Name { get { return "LIGHTNING"; } }
+	public override int SpellLearnedIcon { get { return 22; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Lightning()
+	{
+	}
+}
+
+public class FlameRound : Spell
+{
+	public override string Name { get { return "FLAME ROUND"; } }
+	public override int SpellLearnedIcon { get { return 18; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FlameRound()
+	{
+	}
+}
+
+public class ThunderBolt : Spell
+{
+	public override string Name { get { return "THUNDER BOLT"; } }
+	public override int SpellLearnedIcon { get { return 23; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ThunderBolt()
+	{
+	}
+}
+
+public class FireWall : Spell
+{
+	public override string Name { get { return "FIRE WALL"; } }
+	public override int SpellLearnedIcon { get { return 17; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Coord; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FireWall()
+	{
+	}
+}
+
+public class ThunderCross : Spell
+{
+	public override string Name { get { return "THUNDER CROSS"; } }
+	public override int SpellLearnedIcon { get { return 24; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ThunderCross()
+	{
+	}
+}
+
+public class LightningWall : Spell
+{
+	public override string Name { get { return "LIGHTNING WALL"; } }
+	public override int SpellLearnedIcon { get { return 21; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Coord; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public LightningWall()
+	{
+	}
+}
+
+public class ThunderStroke : Spell
+{
+	public override string Name { get { return "THUNDER STROKE"; } }
+	public override int SpellLearnedIcon { get { return 21; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ThunderStroke()
+	{
+	}
+}
+
+public class HonestBolt : Spell
+{
+	public override string Name { get { return "HONEST BOLT"; } }
+	public override int SpellLearnedIcon { get { return 33; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public HonestBolt()
+	{
+	}
+}
+
+public class FireShot : Spell
+{
+	public override string Name { get { return "FIRE SHOT"; } }
+	public override int SpellLearnedIcon { get { return 13; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FireShot()
+	{
+	}
+}
+
+public class ComeBack : Spell
+{
+	public override string Name { get { return "COME BACK"; } }
+	public override int SpellLearnedIcon { get { return 75; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ComeBack()
+	{
+	}
+}
+
+public class Trace : Spell
+{
+	public override string Name { get { return "TRACE"; } }
+	public override int SpellLearnedIcon { get { return 75; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Trace()
+	{
+	}
+}
+
+public class XRay : Spell
+{
+	public override string Name { get { return "X RAY"; } }
+	public override int SpellLearnedIcon { get { return 8; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public XRay()
+	{
+	}
+}
+
+public class PickUp : Spell
+{
+	public override string Name { get { return "PICK UP"; } }
+	public override int SpellLearnedIcon { get { return 52; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public PickUp()
+	{
+	}
+}
+
+public class Teleport : Spell
+{
+	public override string Name { get { return "TELEPORT"; } }
+	public override int SpellLearnedIcon { get { return 54; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Coord; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Teleport()
+	{
+	}
+}
+
+public class Charging : Spell
+{
+	public override string Name { get { return "CHARGING"; } }
+	public override int SpellLearnedIcon { get { return 4; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Charging()
+	{
+	}
+}
+
+public class ShootingStar : Spell
+{
+	public override string Name { get { return "SHOOTING STAR"; } }
+	public override int SpellLearnedIcon { get { return 30; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ShootingStar()
+	{
+	}
+}
+
+public class MorningStar : Spell
+{
+	public override string Name { get { return "MORNING STAR"; } }
+	public override int SpellLearnedIcon { get { return 30; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public MorningStar()
+	{
+	}
+}
+
+
+public class IceWall : Spell
+{
+	public override string Name { get { return "ICE WALL"; } }
+	public override int SpellLearnedIcon { get { return 44; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public IceWall()
+	{
+	}
+}
+
+public class Transparency : Spell
+{
+	public override string Name { get { return "TRANSPARENCY"; } }
+	public override int SpellLearnedIcon { get { return 10; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Transparency()
+	{
+	}
+}
+
+public class TwinCobra : Spell
+{
+	public override string Name { get { return "TWIN COBRA"; } }
+	public override int SpellLearnedIcon { get { return 39; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Coord; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public TwinCobra()
+	{
+	}
+}
+
+public class SharpEye : Spell
+{
+	public override string Name { get { return "SHARP EYE"; } }
+	public override int SpellLearnedIcon { get { return 7; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public SharpEye()
+	{
+	}
+}
+
+public class Elimination : Spell
+{
+	public override string Name { get { return "ELIMINATION"; } }
+	public override int SpellLearnedIcon { get { return 7; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Elimination()
+	{
+	}
+}
+
+public class Sidewinder : Spell
+{
+	public override string Name { get { return "SIDEWINDER"; } }
+	public override int SpellLearnedIcon { get { return 41; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Sidewinder()
+	{
+	}
+}
+
+public class ElectronicTube : Spell
+{
+	public override string Name { get { return "ELECTRONIC TUBE"; } }
+	public override int SpellLearnedIcon { get { return 26; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ElectronicTube()
+	{
+	}
+}
+
+
+public class MentalSword : Spell
+{
+	public override string Name { get { return "MENTAL SWORD"; } }
+	public override int SpellLearnedIcon { get { return 31; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public MentalSword()
+	{
+	}
+}
+
+public class GuardianSword : Spell
+{
+	public override string Name { get { return "GUARDIAN SWORD"; } }
+	public override int SpellLearnedIcon { get { return 31; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public GuardianSword()
+	{
+	}
+}
+
+public class DemonDeath : Spell
+{
+	public override string Name { get { return "DEMON DEATH"; } }
+	public override int SpellLearnedIcon { get { return 68; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public DemonDeath()
+	{
+	}
+}
+
+public class Execution : Spell
+{
+	public override string Name { get { return "EXECUTION"; } }
+	public override int SpellLearnedIcon { get { return 31; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Execution()
+	{
+	}
+}
+
+public class FlyingSword : Spell
+{
+	public override string Name { get { return "FLYING SWORD"; } }
+	public override int SpellLearnedIcon { get { return 50; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FlyingSword()
+	{
+	}
+}
+
+public class GhostHunter : Spell
+{
+	public override string Name { get { return "GHOST HUNTER"; } }
+	public override int SpellLearnedIcon { get { return 11; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public GhostHunter()
+	{
+	}
+}
+
+public class TeagueShield : Spell
+{
+	public override string Name { get { return "TEAGUE SHIELD"; } }
+	public override int SpellLearnedIcon { get { return 74; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public TeagueShield()
+	{
+	}
+}
+
+public class FireProtector : Spell
+{
+	public override string Name { get { return "FIRE PROTECTOR"; } }
+	public override int SpellLearnedIcon { get { return 15; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FireProtector()
+	{
+	}
+}
+
+public class SoulSprite : Spell
+{
+	public override string Name { get { return "SOUL SPRITE"; } }
+	public override int SpellLearnedIcon { get { return 33; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public SoulSprite()
+	{
+	}
+}
+
+public class NoseBleed : Spell
+{
+	public override string Name { get { return "NOSE BLEED"; } }
+	public override int SpellLearnedIcon { get { return 47; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public NoseBleed()
+	{
+	}
+}
+
+public class StoneCurse : Spell
+{
+	public override string Name { get { return "STONE CURSE"; } }
+	public override int SpellLearnedIcon { get { return 62; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public StoneCurse()
+	{
+	}
+}
+
+public class Radiation : Spell
+{
+	public override string Name { get { return "RADIATION"; } }
+	public override int SpellLearnedIcon { get { return 62; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Radiation()
+	{
+	}
+}
+
+public class DeadlyMessenger : Spell
+{
+	public override string Name { get { return "DEADLY MESSENGER"; } }
+	public override int SpellLearnedIcon { get { return 51; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Coord; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public DeadlyMessenger()
+	{
+	}
+}
+
+public class DragonBreath : Spell
+{
+	public override string Name { get { return "DRAGON BREATH"; } }
+	public override int SpellLearnedIcon { get { return 67; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public DragonBreath()
+	{
+	}
+}
+
+public class Assassin : Spell
+{
+	public override string Name { get { return "ASSASSIN"; } }
+	public override int SpellLearnedIcon { get { return 57; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Assassin()
+	{
+	}
+}
+
+public class Revelation : Spell
+{
+	public override string Name { get { return "REVELATION"; } }
+	public override int SpellLearnedIcon { get { return 40; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Revelation()
+	{
+	}
+}
+
+public class SmogScreen : Spell
+{
+	public override string Name { get { return "SMOG SCREEN"; } }
+	public override int SpellLearnedIcon { get { return 71; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public SmogScreen()
+	{
+	}
+}
+
+public class Shock : Spell
+{
+	public override string Name { get { return "SHOCK"; } }
+	public override int SpellLearnedIcon { get { return 72; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Shock()
+	{
+	}
+}
+
+public class MagicShield : Spell
+{
+	public override string Name { get { return "MAGIC SHIELD"; } }
+	public override int SpellLearnedIcon { get { return 27; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public MagicShield()
+	{
+	}
+}
+
+public class SorcererHunter : Spell
+{
+	public override string Name { get { return "SORCERER HUNTER"; } }
+	public override int SpellLearnedIcon { get { return 27; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public SorcererHunter()
+	{
+	}
+}
+
+public class EvilMind : Spell
+{
+	public override string Name { get { return "EVIL MIND"; } }
+	public override int SpellLearnedIcon { get { return 71; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public EvilMind()
+	{
+	}
+}
+
+public class Tornado : Spell
+{
+	public override string Name { get { return "TORNADO"; } }
+	public override int SpellLearnedIcon { get { return 34; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Tornado()
+	{
+	}
+}
+
+public class Chaos : Spell
+{
+	public override string Name { get { return "CHAOS"; } }
+	public override int SpellLearnedIcon { get { return 63; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Chaos()
+	{
+	}
+}
+
+public class HailStorm : Spell
+{
+	public override string Name { get { return "HAIL STORM"; } }
+	public override int SpellLearnedIcon { get { return 40; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public HailStorm()
+	{
+	}
+}
+
+public class Freezing : Spell
+{
+	public override string Name { get { return "FREEZING"; } }
+	public override int SpellLearnedIcon { get { return 42; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Freezing()
+	{
+	}
+}
+
+public class FireScrew : Spell
+{
+	public override string Name { get { return "FIRE SCREW"; } }
+	public override int SpellLearnedIcon { get { return 19; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FireScrew()
+	{
+	}
+}
+
+public class Medusa : Spell
+{
+	public override string Name { get { return "MEDUSA"; } }
+	public override int SpellLearnedIcon { get { return 66; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Medusa()
+	{
+	}
+}
+
+public class ThunderStorm : Spell
+{
+	public override string Name { get { return "THUNDER STORM"; } }
+	public override int SpellLearnedIcon { get { return 25; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public ThunderStorm()
+	{
+	}
+}
+
+public class Recall : Spell
+{
+	public override string Name { get { return "RECALL"; } }
+	public override int SpellLearnedIcon { get { return 8; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public Recall()
+	{
+	}
+}
+
+public class WildMonk : Spell
+{
+	public override string Name { get { return "WILD MONK"; } }
+	public override int SpellLearnedIcon { get { return 35; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Coord; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public WildMonk()
+	{
+	}
+}
+
+public class DeadlyBoom : Spell
+{
+	public override string Name { get { return "DEADLY BOOM"; } }
+	public override int SpellLearnedIcon { get { return 64; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Casted; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public DeadlyBoom()
+	{
+	}
+}
+
+public class FireHawk : Spell
+{
+	public override string Name { get { return "FIRE HAWK"; } }
+	public override int SpellLearnedIcon { get { return 14; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int ManCostPl { get { return 0; } }
+
+	public override SpellSequence Seq
+	{
+		get
+		{
+			return new SpellSequence(
+				0,  //oncast
+				0,  //moving
+				0,  //impact
+				0,  //thickness
+				0,  //type
+				0,  //speed
+				0,  //streak
+				);
+			}
+		}
+
+	public FireHawk()
+	{
+	}
+}
+
+public class DragonOfFire : Spell
+{
+	public override int SpellLearnedIcon { get { return 67; } }
+	public override LKCamelot.library.MagicType mType { get { return LKCamelot.library. MagicType.Target; } }
+
+	public override int DamBase { get { return 0; } }
+	public override int DamPl { get { return 0; } }
+	public override int ManaCost { get { return 0; } }
+	public override int 

@@ -1,0 +1,102 @@
+message LoginProto {
+	optional Login LoginP = 1;
+	optional LoginResponse LoginResponseP = 2;
+	optional CharCurrency CharCurrencyP = 3;
+	optional CharCurrencyResponse CharCurrencyResponseP = 4;
+	optional GetItems GetItemsP = 5;
+	optional GetItemsResponse GetItemsResponseP = 6;
+	optional CreateAuction CreateAuctionP = 7;
+	optional GetAuctions GetAuctionsP = 8;
+	optional GetAuctionsResponse GetAuctionsResponseP = 9;
+	optional BuyAuction BuyAuctionP = 10;
+	optional ClaimAuction ClaimAuctionP = 11;
+	optional ClaimAuctionResponse ClaimAuctionResponseP = 12;
+	optional BuyAuctionResponse BuyAuctionResponseP = 13;
+	optional KeepAlive KeepAliveP = 14;
+	optional KeepAliveResponse KeepAliveResponseP = 15;
+}
+	
+message BuyAuctionResponse {
+	required string result = 1;
+}
+
+message KeepAlive {
+	required string result = 1;
+}
+
+message KeepAliveResponse {
+	required string result = 1;
+}
+	
+message Login {
+	required string user = 1;
+	required string shapassword = 2;
+}
+
+message LoginResponse {
+   enum LoginStatus {
+    SUCCESS = 1;
+	WRONGPASS = 2;
+	LOGGEDIN = 3;
+  }
+  
+  required LoginStatus loginresp = 1;
+  optional string classtype = 2;
+}
+
+message CreateAuction {
+	required string ItemSerial = 1;
+	required string Gold = 2;
+	optional string AGold = 3;
+}
+
+message CharCurrency {
+}
+
+message CharCurrencyResponse {
+	optional string Gold = 1;
+	optional string AGold = 2;
+}
+
+message GetItems {
+}
+
+message GetAuctions {
+}
+
+message BuyAuction {
+	optional string ItemSerial = 1;
+	optional bool useagold = 2;
+}
+
+message ClaimAuction {
+	optional string Serial = 1;
+}
+
+message ClaimAuctionResponse {
+	optional string slot = 1;
+}
+
+message GetAuctionsResponse {
+	repeated AuctionTraderItem auctiontraderItem = 1;
+}
+
+message TraderItem {
+	optional string Serial = 1;
+    optional string Name = 2;
+	optional string Sprite = 3;
+	optional string Stage = 4;
+	optional string Quantity = 5;
+}
+
+message AuctionTraderItem {
+	required TraderItem BItem = 1;
+	optional string Gold = 2;
+	optional string AGold = 3;
+	optional string flags = 4;	
+	optional int32 count = 5;	
+}
+
+message GetItemsResponse {
+	repeated TraderItem traderItem = 1;
+}

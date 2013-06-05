@@ -1,0 +1,1179 @@
+public class OpeningBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Opening"; } }
+	public override int MenReq { get { return 18; } }
+	public override int MenReqPl { get { return 2; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Opening(); } }
+
+	public OpeningBook() : base(3)
+	{
+	}
+}
+
+public class StartingPointBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Starting Point"; } }
+	public override int MenReq { get { return 20; } }
+	public override int MenReqPl { get { return 4; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 15; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.StartingPoint(); } }
+
+	public StartingPointBook() : base(3)
+	{
+	}
+}
+
+public class HealingBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Healing"; } }
+	public override int MenReq { get { return 22; } }
+	public override int MenReqPl { get { return 4; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Healing(); } }
+
+	public HealingBook() : base(3)
+	{
+	}
+}
+
+public class SearchBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Search"; } }
+	public override int MenReq { get { return 27; } }
+	public override int MenReqPl { get { return 6; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Search(); } }
+
+	public SearchBook() : base(3)
+	{
+	}
+}
+
+public class IceBagBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Ice Bag"; } }
+	public override int MenReq { get { return 27; } }
+	public override int MenReqPl { get { return 7; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.IceBag(); } }
+
+	public IceBagBook() : base(3)
+	{
+	}
+}
+
+public class OblivionBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Oblivion"; } }
+	public override int MenReq { get { return 34; } }
+	public override int MenReqPl { get { return 8; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Oblivion(); } }
+
+	public OblivionBook() : base(3)
+	{
+	}
+}
+
+public class ZigZagBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Zig Zag"; } }
+	public override int MenReq { get { return 17; } }
+	public override int MenReqPl { get { return 3; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ZigZag(); } }
+
+	public ZigZagBook() : base(3)
+	{
+	}
+}
+
+public class ElectronicBallBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Electronic Ball"; } }
+	public override int MenReq { get { return 24; } }
+	public override int MenReqPl { get { return 4; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ElectronicBall(); } }
+
+	public ElectronicBallBook() : base(3)
+	{
+	}
+}
+
+public class MoonLightBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Moon Light"; } }
+	public override int MenReq { get { return 25; } }
+	public override int MenReqPl { get { return 5; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.MoonLight(); } }
+
+	public MoonLightBook() : base(3)
+	{
+	}
+}
+
+public class FireBallBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Fire Ball"; } }
+	public override int MenReq { get { return 28; } }
+	public override int MenReqPl { get { return 7; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FireBall(); } }
+
+	public FireBallBook() : base(3)
+	{
+	}
+}
+
+public class FlameWaveBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Flame Wave"; } }
+	public override int MenReq { get { return 30; } }
+	public override int MenReqPl { get { return 7; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FlameWave(); } }
+
+	public FlameWaveBook() : base(3)
+	{
+	}
+}
+
+public class LightningBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Lightning"; } }
+	public override int MenReq { get { return 38; } }
+	public override int MenReqPl { get { return 8; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Lightning(); } }
+
+	public LightningBook() : base(3)
+	{
+	}
+}
+
+public class FlameRoundBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Flame Round"; } }
+	public override int MenReq { get { return 38; } }
+	public override int MenReqPl { get { return 9; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FlameRound(); } }
+
+	public FlameRoundBook() : base(3)
+	{
+	}
+}
+
+public class ThunderBoltBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Thunder Bolt"; } }
+	public override int MenReq { get { return 48; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ThunderBolt(); } }
+
+	public ThunderBoltBook() : base(3)
+	{
+	}
+}
+
+public class FireWallBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Fire Wall"; } }
+	public override int MenReq { get { return 50; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FireWall(); } }
+
+	public FireWallBook() : base(3)
+	{
+	}
+}
+
+public class ThunderCrossBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Thunder Cross"; } }
+	public override int MenReq { get { return 53; } }
+	public override int MenReqPl { get { return 13; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ThunderCross(); } }
+
+	public ThunderCrossBook() : base(3)
+	{
+	}
+}
+
+public class LightningWallBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Lightning Wall"; } }
+	public override int MenReq { get { return 56; } }
+	public override int MenReqPl { get { return 14; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.LightningWall(); } }
+
+	public LightningWallBook() : base(3)
+	{
+	}
+}
+
+public class ThunderStrokeBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Thunder Stroke"; } }
+	public override int MenReq { get { return 72; } }
+	public override int MenReqPl { get { return 18; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ThunderStroke(); } }
+
+	public ThunderStrokeBook() : base(3)
+	{
+	}
+}
+
+public class HonestBoltBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Honest Bolt"; } }
+	public override int MenReq { get { return 80; } }
+	public override int MenReqPl { get { return 22; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.HonestBolt(); } }
+
+	public HonestBoltBook() : base(3)
+	{
+	}
+}
+
+public class FireShotBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Fire Shot"; } }
+	public override int MenReq { get { return 98; } }
+	public override int MenReqPl { get { return 26; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FireShot(); } }
+
+	public FireShotBook() : base(3)
+	{
+	}
+}
+
+public class ComeBackBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Come Back"; } }
+	public override int MenReq { get { return 38; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ComeBack(); } }
+
+	public ComeBackBook() : base(3)
+	{
+	}
+}
+
+public class TraceBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Trace"; } }
+	public override int MenReq { get { return 38; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Trace(); } }
+
+	public TraceBook() : base(3)
+	{
+	}
+}
+
+public class XRayBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of X Ray"; } }
+	public override int MenReq { get { return 40; } }
+	public override int MenReqPl { get { return 11; } }
+	public override int DexReq { get { return  62; } }
+	public override int DexReqPl { get { return  3; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.XRay(); } }
+
+	public XRayBook() : base(3)
+	{
+	}
+}
+
+public class PickUpBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Pick Up"; } }
+	public override int MenReq { get { return 62; } }
+	public override int MenReqPl { get { return 17; } }
+	public override int DexReq { get { return  102; } }
+	public override int DexReqPl { get { return  4; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.PickUp(); } }
+
+	public PickUpBook() : base(3)
+	{
+	}
+}
+
+public class TeleportBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Teleport"; } }
+	public override int MenReq { get { return 60; } }
+	public override int MenReqPl { get { return 16; } }
+	public override int DexReq { get { return  92; } }
+	public override int DexReqPl { get { return  4; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return 0; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Teleport(); } }
+
+	public TeleportBook() : base(3)
+	{
+	}
+}
+
+public class ChargingBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Charging"; } }
+	public override int MenReq { get { return 166; } }
+	public override int MenReqPl { get { return 17; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 30; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Charging(); } }
+
+	public ChargingBook() : base(3)
+	{
+	}
+}
+
+public class ShootingStarBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Shooting Star"; } }
+	public override int MenReq { get { return 53; } }
+	public override int MenReqPl { get { return 5; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Knight; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ShootingStar(); } }
+
+	public ShootingStarBook() : base(3)
+	{
+	}
+}
+
+public class MorningStarBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Morning Star"; } }
+	public override int MenReq { get { return 67; } }
+	public override int MenReqPl { get { return 4; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Swordsman | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.MorningStar(); } }
+
+	public MorningStarBook() : base(3)
+	{
+	}
+}
+
+public class PlusHealBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Plus Heal"; } }
+	public override int MenReq { get { return 200; } }
+	public override int MenReqPl { get { return 5; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.PlusHeal(); } }
+
+	public PlusHealBook() : base(3)
+	{
+	}
+}
+
+public class IceWallBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Ice Wall"; } }
+	public override int MenReq { get { return 204; } }
+	public override int MenReqPl { get { return 14; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.IceWall(); } }
+
+	public IceWallBook() : base(3)
+	{
+	}
+}
+
+public class TransparencyBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Transparency"; } }
+	public override int MenReq { get { return 120; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Swordsman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Transparency(); } }
+
+	public TransparencyBook() : base(3)
+	{
+	}
+}
+
+public class TwinCobraBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Twin Cobra"; } }
+	public override int MenReq { get { return 60; } }
+	public override int MenReqPl { get { return 18; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Knight; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.TwinCobra(); } }
+
+	public TwinCobraBook() : base(3)
+	{
+	}
+}
+
+public class SharpEyeBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Sharp Eye"; } }
+	public override int MenReq { get { return 66; } }
+	public override int MenReqPl { get { return 20; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.SharpEye(); } }
+
+	public SharpEyeBook() : base(3)
+	{
+	}
+}
+
+public class EliminationBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Elimination"; } }
+	public override int MenReq { get { return 340; } }
+	public override int MenReqPl { get { return 15; } }
+	public override int DexReq { get { return  156; } }
+	public override int DexReqPl { get { return  7; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Elimination(); } }
+
+	public EliminationBook() : base(3)
+	{
+	}
+}
+
+public class SidewinderBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Sidewinder"; } }
+	public override int MenReq { get { return 105; } }
+	public override int MenReqPl { get { return 15; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Swordsman | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Sidewinder(); } }
+
+	public SidewinderBook() : base(3)
+	{
+	}
+}
+
+public class ElectronicTubeBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Electronic Tube"; } }
+	public override int MenReq { get { return 482; } }
+	public override int MenReqPl { get { return 13; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard | ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ElectronicTube(); } }
+
+	public ElectronicTubeBook() : base(3)
+	{
+	}
+}
+
+public class MagicArmorBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Magic Armor"; } }
+	public override int MenReq { get { return 24; } }
+	public override int MenReqPl { get { return 4; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Knight; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.MagicArmor(); } }
+
+	public MagicArmorBook() : base(3)
+	{
+	}
+}
+
+public class MentalSwordBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Mental Sword"; } }
+	public override int MenReq { get { return 30; } }
+	public override int MenReqPl { get { return 5; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Knight; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.MentalSword(); } }
+
+	public MentalSwordBook() : base(3)
+	{
+	}
+}
+
+public class GuardianSwordBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Guardian Sword"; } }
+	public override int MenReq { get { return 98; } }
+	public override int MenReqPl { get { return 8; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Swordsman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.GuardianSword(); } }
+
+	public GuardianSwordBook() : base(3)
+	{
+	}
+}
+
+public class DemonDeathBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Demon Death"; } }
+	public override int MenReq { get { return 180; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 50; } }
+	public override Class ClassReq { get { return ClassM.Swordsman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.DemonDeath(); } }
+
+	public DemonDeathBook() : base(3)
+	{
+	}
+}
+
+public class ExecutionBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Execution"; } }
+	public override int MenReq { get { return 260; } }
+	public override int MenReqPl { get { return 6; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Swordsman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Execution(); } }
+
+	public ExecutionBook() : base(3)
+	{
+	}
+}
+
+public class FlyingSwordBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Flying Sword"; } }
+	public override int MenReq { get { return 130; } }
+	public override int MenReqPl { get { return 5; } }
+	public override int DexReq { get { return  360; } }
+	public override int DexReqPl { get { return  5; } }
+	public override int LevelReq { get { return 80; } }
+	public override Class ClassReq { get { return ClassM.Swordsman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FlyingSword(); } }
+
+	public FlyingSwordBook() : base(3)
+	{
+	}
+}
+
+public class GhostHunterBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Ghost Hunter"; } }
+	public override int MenReq { get { return 102; } }
+	public override int MenReqPl { get { return 6; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.GhostHunter(); } }
+
+	public GhostHunterBook() : base(3)
+	{
+	}
+}
+
+public class TeagueShieldBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Teague Shield"; } }
+	public override int MenReq { get { return 112; } }
+	public override int MenReqPl { get { return 9; } }
+	public override int DexReq { get { return  45; } }
+	public override int DexReqPl { get { return  5; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.TeagueShield(); } }
+
+	public TeagueShieldBook() : base(3)
+	{
+	}
+}
+
+public class FireProtectorBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Fire Protector"; } }
+	public override int MenReq { get { return 162; } }
+	public override int MenReqPl { get { return 14; } }
+	public override int DexReq { get { return  65; } }
+	public override int DexReqPl { get { return  8; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FireProtector(); } }
+
+	public FireProtectorBook() : base(3)
+	{
+	}
+}
+
+public class SoulSpriteBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Soul Sprite"; } }
+	public override int MenReq { get { return 198; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.SoulSprite(); } }
+
+	public SoulSpriteBook() : base(3)
+	{
+	}
+}
+
+public class NoseBleedBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Nose Bleed"; } }
+	public override int MenReq { get { return 225; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.NoseBleed(); } }
+
+	public NoseBleedBook() : base(3)
+	{
+	}
+}
+
+public class StoneCurseBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Stone Curse"; } }
+	public override int MenReq { get { return 231; } }
+	public override int MenReqPl { get { return 16; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.StoneCurse(); } }
+
+	public StoneCurseBook() : base(3)
+	{
+	}
+}
+
+public class RadiationBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Radiation"; } }
+	public override int MenReq { get { return 250; } }
+	public override int MenReqPl { get { return 1; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 50; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Radiation(); } }
+
+	public RadiationBook() : base(3)
+	{
+	}
+}
+
+public class DeadlyMessengerBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Deadly Messenger"; } }
+	public override int MenReq { get { return 231; } }
+	public override int MenReqPl { get { return 16; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.DeadlyMessenger(); } }
+
+	public DeadlyMessengerBook() : base(3)
+	{
+	}
+}
+
+public class DragonBreathBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Dragon Breath"; } }
+	public override int MenReq { get { return 380; } }
+	public override int MenReqPl { get { return 6; } }
+	public override int DexReq { get { return  205; } }
+	public override int DexReqPl { get { return  5; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.DragonBreath(); } }
+
+	public DragonBreathBook() : base(3)
+	{
+	}
+}
+
+public class AssassinBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Assassin"; } }
+	public override int MenReq { get { return 435; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return  234; } }
+	public override int DexReqPl { get { return  7; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Assassin(); } }
+
+	public AssassinBook() : base(3)
+	{
+	}
+}
+
+public class RevelationBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Revelation"; } }
+	public override int MenReq { get { return 475; } }
+	public override int MenReqPl { get { return 9; } }
+	public override int DexReq { get { return  268; } }
+	public override int DexReqPl { get { return  6; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Shaman; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Revelation(); } }
+
+	public RevelationBook() : base(3)
+	{
+	}
+}
+
+public class SmogScreenBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Smog Screen"; } }
+	public override int MenReq { get { return 108; } }
+	public override int MenReqPl { get { return 6; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.SmogScreen(); } }
+
+	public SmogScreenBook() : base(3)
+	{
+	}
+}
+
+public class ShockBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Shock"; } }
+	public override int MenReq { get { return 127; } }
+	public override int MenReqPl { get { return 13; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Shock(); } }
+
+	public ShockBook() : base(3)
+	{
+	}
+}
+
+public class MagicShieldBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Magic Shield"; } }
+	public override int MenReq { get { return 140; } }
+	public override int MenReqPl { get { return 14; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.MagicShield(); } }
+
+	public MagicShieldBook() : base(3)
+	{
+	}
+}
+
+public class SorcererHunterBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Sorcerer Hunter"; } }
+	public override int MenReq { get { return 170; } }
+	public override int MenReqPl { get { return 8; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.SorcererHunter(); } }
+
+	public SorcererHunterBook() : base(3)
+	{
+	}
+}
+
+public class RainbowBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Rainbow"; } }
+	public override int MenReq { get { return 312; } }
+	public override int MenReqPl { get { return 24; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Rainbow(); } }
+
+	public RainbowBook() : base(3)
+	{
+	}
+}
+
+public class EvilMindBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Evil Mind"; } }
+	public override int MenReq { get { return 376; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.EvilMind(); } }
+
+	public EvilMindBook() : base(3)
+	{
+	}
+}
+
+public class TornadoBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Tornado"; } }
+	public override int MenReq { get { return 390; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Tornado(); } }
+
+	public TornadoBook() : base(3)
+	{
+	}
+}
+
+public class ChaosBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Chaos"; } }
+	public override int MenReq { get { return 408; } }
+	public override int MenReqPl { get { return 8; } }
+	public override int DexReq { get { return  112; } }
+	public override int DexReqPl { get { return  2; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Chaos(); } }
+
+	public ChaosBook() : base(3)
+	{
+	}
+}
+
+public class HailStormBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Hail Storm"; } }
+	public override int MenReq { get { return 417; } }
+	public override int MenReqPl { get { return 11; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.HailStorm(); } }
+
+	public HailStormBook() : base(3)
+	{
+	}
+}
+
+public class FreezingBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Freezing"; } }
+	public override int MenReq { get { return 340; } }
+	public override int MenReqPl { get { return 25; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Freezing(); } }
+
+	public FreezingBook() : base(3)
+	{
+	}
+}
+
+public class FireScrewBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Fire Screw"; } }
+	public override int MenReq { get { return 450; } }
+	public override int MenReqPl { get { return 10; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.FireScrew(); } }
+
+	public FireScrewBook() : base(3)
+	{
+	}
+}
+
+public class MedusaBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Medusa"; } }
+	public override int MenReq { get { return 468; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return  132; } }
+	public override int DexReqPl { get { return  3; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Medusa(); } }
+
+	public MedusaBook() : base(3)
+	{
+	}
+}
+
+public class ThunderStormBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Thunder Storm"; } }
+	public override int MenReq { get { return 485; } }
+	public override int MenReqPl { get { return 11; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.ThunderStorm(); } }
+
+	public ThunderStormBook() : base(3)
+	{
+	}
+}
+
+public class RecallBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Recall"; } }
+	public override int MenReq { get { return 495; } }
+	public override int MenReqPl { get { return 25; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.Recall(); } }
+
+	public RecallBook() : base(3)
+	{
+	}
+}
+
+public class WildMonkBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Wild Monk"; } }
+	public override int MenReq { get { return 518; } }
+	public override int MenReqPl { get { return 12; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.WildMonk(); } }
+
+	public WildMonkBook() : base(3)
+	{
+	}
+}
+
+public class DeadlyBoomBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Deadly Boom"; } }
+	public override int MenReq { get { return 529; } }
+	public override int MenReqPl { get { return 15; } }
+	public override int DexReq { get { return 0; } }
+	public override int DexReqPl { get { return 0; } }
+	public override int LevelReq { get { return 0; } }
+	public override Class ClassReq { get { return ClassM.Wizard; } }
+
+	public override int spells.Spell SpellTaught { get { return new spells.DeadlyBoom(); } }
+
+	public DeadlyBoomBook() : base(3)
+	{
+	}
+}
+
+public class FireHawkBook : BaseSpellbook
+{
+	public override string Name { get { return "Book of Fire Hawk"; } }
+	public override int MenReq { get { return 590; } }
+	public override int MenReqPl { get { return 11; } }
+	public override int DexR

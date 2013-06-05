@@ -1,0 +1,8 @@
+C:\LK2Cam\wfa2\devTool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\LK2Cam\wfa2\devTool\bin\Debug\devTool.exe
+C:\LK2Cam\wfa2\devTool\bin\Debug\devTool.pdb
+C:\LK2Cam\wfa2\devTool\obj\x86\Debug\devTool.exe
+C:\LK2Cam\wfa2\devTool\obj\x86\Debug\devTool.pdb
+C:\LK2Cam\wfa2\devTool\obj\x86\Debug\devTool.Form1.resources
+C:\LK2Cam\wfa2\devTool\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\LK2Cam\wfa2\devTool\obj\x86\Debug\GenerateResource.write.1.tlog

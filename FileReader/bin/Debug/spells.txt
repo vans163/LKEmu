@@ -1,0 +1,1080 @@
+﻿        public void SetOpening()
+        {
+            this.SpellIcon = 1;
+            this.SpellName = "OPENING";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 18;
+            this.MenReqPl = 2;
+        }
+
+        public void SetStartingPoint()
+        {
+            this.SpellIcon = 6;
+            this.SpellName = "STARTING POINT";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 20;
+            this.MenReqPl = 4;
+            this.LevelReq = 15;
+        }
+
+        public void SetHealing()
+        {
+            this.SpellIcon = 1;
+            this.SpellName = "HEALING";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 22;
+            this.MenReqPl = 4;
+            this.LevelReq = 0;
+            this.SpellAni = new SpellAnimation(1,0,0,3,0);
+        }
+
+        public void SetSearch()
+        {
+            this.SpellIcon = 5;
+            this.SpellName = "SEARCH";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 27;
+            this.MenReqPl = 6;
+            this.LevelReq = 0;
+        }
+
+        public void SetIceBag()
+        {
+            this.SpellIcon = 73;
+            this.SpellName = "ICE BAG";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target2;
+            this.ClassReq = 0;
+            this.MenReq = 27;
+            this.MenReqPl = 7;
+            this.LevelReq = 0;
+        }
+
+        public void SetOblivion()
+        {
+            this.SpellIcon = 8;
+            this.SpellName = "OBLIVION";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target2;
+            this.ClassReq = 0;
+            this.MenReq = 34;
+            this.MenReqPl = 8;
+            this.LevelReq = 0;
+        }
+
+        public void SetZigZag() 
+        {
+            this.SpellIcon = 21;
+            this.SpellName = "ZIGZAG";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 17;
+            this.MenReqPl = 3;
+            this.Dam = 22;
+            this.DamPl1 = 4;
+            this.ManaCost = 16;
+            this.LevelReq = 0;
+        }
+
+        public void SetElectronicBall()
+        {
+            this.SpellIcon = 20;
+            this.SpellName = "ELECTRONIC BALL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target2;
+            this.ClassReq = 0;
+            this.MenReq = 24;
+            this.MenReqPl = 4;
+            this.Dam = 35;
+            this.DamPl1 = 5;
+            this.ManaCost = 25;
+            this.LevelReq = 0;
+            this.SpellAni = new SpellAnimation(82,0,0,3,0);
+        }
+
+        public void SetMoonLight()
+        {
+            this.SpellIcon = 37;
+            this.SpellName = "MOON LIGHT";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 25;
+            this.MenReqPl = 5;
+            this.Dam = 48;
+            this.DamPl1 = 6;
+            this.ManaCost = 28;
+            this.LevelReq = 0;
+        }
+
+        public void SetFireBall()
+        {
+            this.SpellIcon = 12;
+            this.SpellName = "FIRE BALL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 28;
+            this.MenReqPl = 7;
+            this.Dam = 46;
+            this.DamPl1 = 6;
+            this.ManaCost = 32;
+            this.LevelReq = 0;
+        }
+
+        public void SetFlameWave()
+        {
+            this.SpellIcon = 16;
+            this.SpellName = "FLAME WAVE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 30;
+            this.MenReqPl = 7;
+            this.Dam = 58;
+            this.DamPl1 = 6;
+            this.ManaCost = 38;
+            this.LevelReq = 0;
+        }
+
+        public void SetLightning()
+        {
+            this.SpellIcon = 22;
+            this.SpellName = "LIGHTNING";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 38;
+            this.MenReqPl = 8;
+            this.Dam = 66;
+            this.DamPl1 = 6;
+            this.ManaCost = 40;
+            this.LevelReq = 0;
+        }
+
+        public void SetFlameRound()
+        {
+            this.SpellIcon = 18;
+            this.SpellName = "FLAME ROUND";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 38;
+            this.MenReqPl = 9;
+            this.Dam = 70;
+            this.DamPl1 = 6;
+            this.ManaCost = 54;
+            this.LevelReq = 0;
+        }
+
+        public void SetThunderBolt()
+        {
+            this.SpellIcon = 23;
+            this.SpellName = "THUNDER BOLT";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 48;
+            this.MenReqPl = 12;
+            this.Dam = 118;
+            this.DamPl1 = 6;
+            this.ManaCost = 60;
+            this.LevelReq = 0;
+        }
+
+        public void SetFireWall()
+        {
+            this.SpellIcon = 17;
+            this.SpellName = "FIRE WALL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Coord;
+            this.ClassReq = 0;
+            this.MenReq = 50;
+            this.MenReqPl = 12;
+            this.Dam = 130;
+            this.DamPl1 = 8;
+            this.ManaCost = 96;
+            this.LevelReq = 0;
+        }
+
+        public void SetThunderCross()
+        {
+            this.SpellIcon = 24;
+            this.SpellName = "THUNDER CROSS";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 53;
+            this.MenReqPl = 13;
+            this.Dam = 132;
+            this.DamPl1 = 8;
+            this.ManaCost = 105;
+            this.LevelReq = 0;
+        }
+
+        public void SetLightningWall()
+        {
+            this.SpellIcon = 21;
+            this.SpellName = "LIGHTNING WALL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Coord;
+            this.ClassReq = 0;
+            this.MenReq = 56;
+            this.MenReqPl = 14;
+            this.Dam = 152;
+            this.DamPl1 = 8;
+            this.ManaCost = 102;
+            this.LevelReq = 0;
+        }
+
+        public void SetThunderStroke()
+        {
+            this.SpellIcon = 21;
+            this.SpellName = "THUNDER STROKE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 72;
+            this.MenReqPl = 18;
+            this.Dam = 206;
+            this.DamPl1 = 8;
+            this.ManaCost = 150;
+            this.LevelReq = 0;
+        }
+
+        public void SetHonestBolt()
+        {
+            this.SpellIcon = 33;
+            this.SpellName = "HONEST BOLT";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 80;
+            this.MenReqPl = 22;
+            this.Dam = 567;
+            this.DamPl1 = 11;
+            this.ManaCost = 180;
+            this.LevelReq = 0;
+        }
+
+        public void SetFireShot()
+        {
+            this.SpellIcon = 13;
+            this.SpellName = "FIRE SHOT";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = 0;
+            this.MenReq = 98;
+            this.MenReqPl = 26;
+            this.Dam = 360;
+            this.DamPl1 = 8;
+            this.ManaCost = 180;
+            this.LevelReq = 0;
+        }
+
+        public void SetComeBack()
+        {
+            this.SpellIcon = 75;
+            this.SpellName = "COME BACK";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 38;
+            this.MenReqPl = 10;
+            this.LevelReq = 0;
+        }
+
+        public void SetTrace() //Dungeon starting point
+        {
+            this.SpellIcon = 75;
+            this.SpellName = "TRACE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 38;
+            this.MenReqPl = 10;
+            this.LevelReq = 0;
+        }
+
+        public void SetXRay()
+        {
+            this.SpellIcon = 8;
+            this.SpellName = "X-RAY";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 40;
+            this.MenReqPl = 11;
+            this.DexReq = 62;
+            this.DexReqPl = 3;
+            this.LevelReq = 0;
+        }
+
+        public void SetPickUp()
+        {
+            this.SpellIcon = 52;
+            this.SpellName = "PICK UP";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = 0;
+            this.MenReq = 62;
+            this.MenReqPl = 17;
+            this.DexReq = 102;
+            this.DexReqPl = 4;
+            this.LevelReq = 0;
+        }
+
+        public void SetTeleport()
+        {
+            this.SpellIcon = 54;
+            this.SpellName = "TELEPORT";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Coord;
+            this.ClassReq = 0;
+            this.MenReq = 60;
+            this.MenReqPl = 16;
+            this.DexReq = 92;
+            this.DexReqPl = 4;
+            this.LevelReq = 0;
+        }
+
+        public void SetCharging()
+        {
+            this.SpellIcon = 4;
+            this.SpellName = "CHARGING";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard | ClassM.Shaman;
+            this.MenReq = 166;
+            this.MenReqPl = 17;
+            this.LevelReq = 30;
+        }
+
+        public void SetShootingStar()
+        {
+            this.SpellIcon = 30;
+            this.SpellName = "SHOOTING STAR";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard | ClassM.Knight;
+            this.MenReq = 53;
+            this.MenReqPl = 5;
+            this.LevelReq = 0;
+        }
+
+        public void SetMorningStar()
+        {
+            this.SpellIcon = 30;
+            this.SpellName = "MORNING STAR";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Swordsman | ClassM.Shaman;
+            this.MenReq = 67;
+            this.MenReqPl = 4;
+            this.LevelReq = 0;
+        }
+
+        public void SetPlusHeal()
+        {
+            this.SpellIcon = 2;
+            this.SpellName = "PLUS HEAL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard | ClassM.Shaman;
+            this.MenReq = 200;
+            this.MenReqPl = 5;
+            this.LevelReq = 0;
+        }
+
+        public void SetIceWall()
+        {
+            this.SpellIcon = 44;
+            this.SpellName = "ICE WALL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard | ClassM.Shaman;
+            this.MenReq = 204;
+            this.MenReqPl = 14;
+            this.LevelReq = 0;
+        }
+
+        public void SetTransparency()
+        {
+            this.SpellIcon = 10;
+            this.SpellName = "TRANSPARENCY";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard | ClassM.Swordsman;
+            this.MenReq = 120;
+            this.MenReqPl = 10;
+            this.LevelReq = 0;
+        }
+
+        public void SetTwinCobra()
+        {
+            this.SpellIcon = 39;
+            this.SpellName = "TWIN COBRA";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Coord;
+            this.ClassReq = ClassM.Wizard | ClassM.Knight;
+            this.MenReq = 60;
+            this.MenReqPl = 18;
+            this.LevelReq = 0;
+        }
+
+        public void SetSharpEye()
+        {
+            this.SpellIcon = 7;
+            this.SpellName = "SHARP EYE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard | ClassM.Shaman;
+            this.MenReq = 66;
+            this.MenReqPl = 20;
+            this.LevelReq = 0;
+        }
+
+        public void SetElimination()
+        {
+            this.SpellIcon = 7;
+            this.SpellName = "ELIMINATION";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard | ClassM.Shaman;
+            this.MenReq = 340;
+            this.MenReqPl = 15;
+            this.DexReq = 156;
+            this.DexReqPl = 7;
+            this.LevelReq = 0;
+        }
+
+        public void SetSidewinder()
+        {
+            this.SpellIcon = 41;
+            this.SpellName = "SIDEWINDER";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Swordsman | ClassM.Shaman;
+            this.MenReq = 105;
+            this.MenReqPl = 15;
+            this.LevelReq = 0;
+        }
+
+        public void SetElectronicTube()
+        {
+            this.SpellIcon = 26;
+            this.SpellName = "ELECTRONIC TUBE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard | ClassM.Shaman;
+            this.MenReq = 482;
+            this.MenReqPl = 13;
+            this.LevelReq = 0;
+        }
+
+        public void SetMagicArmor()
+        {
+            this.SpellIcon = 27;
+            this.SpellName = "MAGIC ARMOR";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Knight;
+            this.MenReq = 24;
+            this.MenReqPl = 4;
+            this.LevelReq = 0;
+        }
+
+        public void SetMentalSword()
+        {
+            this.SpellIcon = 31;
+            this.SpellName = "MENTAL SWORD";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Knight;
+            this.MenReq = 30;
+            this.MenReqPl = 5;
+            this.LevelReq = 0;
+        }
+
+        public void SetGuardianSword()
+        {
+            this.SpellIcon = 31;
+            this.SpellName = "GUARDIAN SWORD";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Swordsman;
+            this.DexReq = 98;
+            this.DexReqPl = 8;
+            this.LevelReq = 0;
+        }
+
+        public void SetDemonDeath()
+        {
+            this.SpellIcon = 68;
+            this.SpellName = "DEMON DEATH";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Swordsman;
+            this.DexReq = 180;
+            this.DexReqPl = 12;
+            this.LevelReq = 50; // +5
+        }
+
+        public void SetExecution()
+        {
+            this.SpellIcon = 31;
+            this.SpellName = "EXECUTION";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Swordsman;
+            this.DexReq = 260;
+            this.DexReqPl = 6;
+            this.LevelReq = 0;
+        }
+
+        public void SetFlyingSword()
+        {
+            this.SpellIcon = 50;
+            this.SpellName = "FLYING SWORD";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Swordsman;
+            this.MenReq = 130;
+            this.MenReqPl = 5;
+            this.DexReq = 360;
+            this.DexReqPl = 5;
+            this.LevelReq = 80;
+        }
+
+        public void SetGhostHunter()
+        {
+            this.SpellIcon = 11;
+            this.SpellName = "GHOST HUNTER";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 102;
+            this.MenReqPl = 6;
+            this.LevelReq = 0;
+        }
+
+        public void SetTeagueShield()
+        {
+            this.SpellIcon = 74;
+            this.SpellName = "TEAGUE SHIELD";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 112;
+            this.MenReqPl = 9;
+            this.DexReq = 45;
+            this.DexReqPl = 5;
+            this.LevelReq = 0;
+        }
+
+        public void SetFireProtector()
+        {
+            this.SpellIcon = 15;
+            this.SpellName = "FIRE PROTECTOR";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 162;
+            this.MenReqPl = 14;
+            this.DexReq = 65;
+            this.DexReqPl = 8;
+            this.LevelReq = 0;
+        }
+
+        public void SetSoulSprite()
+        {
+            this.SpellIcon = 33;
+            this.SpellName = "SOUL SPRITE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 198;
+            this.MenReqPl = 12;
+            this.LevelReq = 0;
+        }
+
+        public void SetNoseBleed()
+        {
+            this.SpellIcon = 47;
+            this.SpellName = "NOSEBLEED";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 225;
+            this.MenReqPl = 10;
+            this.LevelReq = 0;
+        }
+
+        public void SetStoneCurse()
+        {
+            this.SpellIcon = 62;
+            this.SpellName = "STONE CURSE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 231;
+            this.MenReqPl = 16;
+            this.LevelReq = 0;
+        }
+
+        public void SetRadiation()
+        {
+            this.SpellIcon = 62;
+            this.SpellName = "RADIATION";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 250;
+            this.MenReqPl = 1;
+            this.LevelReq = 50; //+3
+        }
+
+        public void SetDeadlyMessenger()
+        {
+            this.SpellIcon = 51;
+            this.SpellName = "DEADLY MESSENGER";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Coord;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 231;
+            this.MenReqPl = 16;
+            this.LevelReq = 0;
+        }
+
+        public void SetDragonBreath()
+        {
+            this.SpellIcon = 67;
+            this.SpellName = "DRAGON BREATH";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 380;
+            this.MenReqPl = 6;
+            this.DexReq = 205;
+            this.DexReqPl = 5;
+            this.LevelReq = 0;
+        }
+
+        public void SetAssassin()
+        {
+            this.SpellIcon = 57;
+            this.SpellName = "ASSASSIN";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 435;
+            this.MenReqPl = 10;
+            this.DexReq = 234;
+            this.DexReqPl = 7;
+            this.LevelReq = 0;
+        }
+
+        public void SetRevelation()
+        {
+            this.SpellIcon = 40;
+            this.SpellName = "REVELATION";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Shaman;
+            this.MenReq = 475;
+            this.MenReqPl = 9;
+            this.DexReq = 268;
+            this.DexReqPl = 6;
+            this.LevelReq = 0;
+        }
+
+        public void SetSmogScreen()
+        {
+            this.SpellIcon = 71;
+            this.SpellName = "SMOG SCREEN";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 108;
+            this.MenReqPl = 6;
+            this.LevelReq = 0;
+        }
+
+        public void SetShock()
+        {
+            this.SpellIcon = 72;
+            this.SpellName = "SHOCK";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 127;
+            this.MenReqPl = 13;
+            this.LevelReq = 0;
+        }
+
+        public void SetMagicShield()
+        {
+            this.SpellIcon = 27;
+            this.SpellName = "MAGIC SHIELD";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 140;
+            this.MenReqPl = 14;
+            this.LevelReq = 0;
+        }
+
+        public void SetSorcererHunter()
+        {
+            this.SpellIcon = 27;
+            this.SpellName = "SORCERER HUNTER";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 170;
+            this.MenReqPl = 8;
+            this.LevelReq = 0;
+        }
+
+        public void SetRainbow()
+        {
+            this.SpellIcon = 30;
+            this.SpellName = "RAINBOW";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 312;
+            this.MenReqPl = 24;
+            this.LevelReq = 0;
+        }
+
+        public void SetEvilMind()
+        {
+            this.SpellIcon = 71;
+            this.SpellName = "EVIL MIND";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 376;
+            this.MenReqPl = 12;
+            this.LevelReq = 0;
+        }
+
+        public void SetTornado()
+        {
+            this.SpellIcon = 34;
+            this.SpellName = "TORNADO";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 390;
+            this.MenReqPl = 10;
+            this.LevelReq = 0;
+        }
+
+        public void SetChaos()
+        {
+            this.SpellIcon = 63;
+            this.SpellName = "CHAOS";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 408;
+            this.MenReqPl = 8;
+            this.DexReq = 112;
+            this.DexReqPl = 2;
+            this.LevelReq = 0;
+        }
+
+        public void SetHailStorm()
+        {
+            this.SpellIcon = 40;
+            this.SpellName = "HAIL STORM";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 417;
+            this.MenReqPl = 11;
+            this.LevelReq = 0;
+        }
+
+        public void SetFreezing()
+        {
+            this.SpellIcon = 42;
+            this.SpellName = "FREEZING";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 340;
+            this.MenReqPl = 25;
+            this.LevelReq = 0;
+        }
+
+        public void SetFireScrew()
+        {
+            this.SpellIcon = 19;
+            this.SpellName = "FIRE SCREW";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 450;
+            this.MenReqPl = 10;
+            this.LevelReq = 0;
+        }
+
+        public void SetMedusa()
+        {
+            this.SpellIcon = 66;
+            this.SpellName = "MEDUSA";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 468;
+            this.MenReqPl = 12;
+            this.DexReq = 132;
+            this.DexReqPl = 3;
+            this.LevelReq = 0;
+        }
+
+        public void SetThunderStorm()
+        {
+            this.SpellIcon = 25;
+            this.SpellName = "THUNDER STORM";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 485;
+            this.MenReqPl = 11;
+            this.LevelReq = 0;
+        }
+
+        public void SetRecall()
+        {
+            this.SpellIcon = 8;
+            this.SpellName = "RECALL";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 495;
+            this.MenReqPl = 25;
+            this.LevelReq = 0;
+        }
+
+        public void SetWildMonk()
+        {
+            this.SpellIcon = 35;
+            this.SpellName = "WILD MONK";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Coord;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 518;
+            this.MenReqPl = 12;
+            this.LevelReq = 0;
+        }
+
+        public void SetDeadlyBoom()
+        {
+            this.SpellIcon = 64;
+            this.SpellName = "DEADLY BOOM";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 529;
+            this.MenReqPl = 15;
+            this.LevelReq = 0;
+        }
+
+        public void SetFireHawk()
+        {
+            this.SpellIcon = 14;
+            this.SpellName = "FIRE HAWK";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 590;
+            this.MenReqPl = 11;
+            this.DexReq = 172;
+            this.DexReqPl = 3;
+            this.LevelReq = 0;
+        }
+
+        public void SetDragonOfFire()
+        {
+            this.SpellIcon = 67;
+            this.SpellName = "DRAGON OF FIRE";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Target;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 686;
+            this.MenReqPl = 12;
+            this.DexReq = 195;
+            this.DexReqPl = 4;
+            this.LevelReq = 0;
+        }
+
+        public void SetBigBang()
+        {
+            this.SpellIcon = 64;
+            this.SpellName = "BIG BANG";
+            this.Level = 0;
+            this.Level2 = 1;
+            this.Slot = 0;
+            this.mType = MagicType.Casted;
+            this.ClassReq = ClassM.Wizard;
+            this.MenReq = 715;
+            this.MenReqPl = 15;
+            this.DexReq = 205;
+            this.DexReqPl = 7;
+            this.LevelReq = 0;
+        }

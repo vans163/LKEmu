@@ -1,0 +1,10 @@
+C:\Users\workstation\AppData\Local\Temporary Projects\LKCamelot\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\workstation\AppData\Local\Temporary Projects\LKCamelot\bin\Release\LKCamelot.exe
+C:\Users\workstation\AppData\Local\Temporary Projects\LKCamelot\bin\Release\LKCamelot.pdb
+C:\Users\workstation\AppData\Local\Temporary Projects\LKCamelot\obj\x86\Release\LKCamelot.exe
+C:\Users\workstation\AppData\Local\Temporary Projects\LKCamelot\obj\x86\Release\LKCamelot.pdb
+C:\vcsProjs\LKCamelot\LKCamelot\obj\x86\Release\LKCamelot.exe
+C:\vcsProjs\LKCamelot\LKCamelot\obj\x86\Release\LKCamelot.pdb
+C:\vcsProjs\LKCamelot\LKCamelot\bin\Release\LKCamelot.exe
+C:\vcsProjs\LKCamelot\LKCamelot\bin\Release\LKCamelot.pdb
+C:\vcsProjs\LKCamelot\LKCamelot\obj\x86\Release\ResolveAssemblyReference.cache

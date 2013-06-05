@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC23F14A-2928-4C11-89E7-EA2AADC26F0F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LKCamelot</RootNamespace>
+    <AssemblyName>LKCamelot</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fleck">
+      <HintPath>Libs\Fleck.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Libs\protobuf\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayExtensions.cs" />
+    <Compile Include="BinarySave.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="ConnectionDataEventArgs.cs" />
+    <Compile Include="ConnectionEventArgs.cs" />
+    <Compile Include="EnumerableExtensions.cs" />
+    <Compile Include="Extractor.cs" />
+    <Compile Include="io\IOClient.cs" />
+    <Compile Include="io\IOClientChat.cs" />
+    <Compile Include="io\IOThread.cs" />
+    <Compile Include="library\Misc.cs" />
+    <Compile Include="library\Object.cs" />
+    <Compile Include="library\Sprites.cs" />
+    <Compile Include="model\AStar\PriorityQueue.cs" />
+    <Compile Include="model\AStar\SpatialAStar.cs" />
+    <Compile Include="model\CastHandler.cs" />
+    <Compile Include="model\Client.cs" />
+    <Compile Include="model\CombatHandler.cs" />
+    <Compile Include="model\CombatHandler2.cs" />
+    <Compile Include="model\Objects\BaseObject.cs" />
+    <Compile Include="model\Objects\Geometry.cs" />
+    <Compile Include="model\Objects\Player.cs" />
+    <Compile Include="model\Serial.cs" />
+    <Compile Include="model\Serialization.cs" />
+    <Compile Include="model\Messages.cs" />
+    <Compile Include="model\Packets.cs" />
+    <Compile Include="model\PlayerHandler.cs" />
+    <Compile Include="model\Util.cs" />
+    <Compile Include="model\World\Map.cs" />
+    <Compile Include="model\World\Spawner.cs" />
+    <Compile Include="model\World\World.cs" />
+    <Compile Include="net\PacketReader.cs" />
+    <Compile Include="net\PacketWriter.cs" />
+    <Compile Include="net\Stream.cs" />
+    <Compile Include="script\item\AuctionItem.cs" />
+    <Compile Include="script\item\defence\amulet\BraveAmulet.cs" />
+    <Compile Include="script\item\defence\amulet\BSAmmy.cs" />
+    <Compile Include="script\item\defence\amulet\SAmulet.cs" />
+    <Compile Include="script\item\defence\armor\AmityPlate.cs" />
+    <Compile Include="script\item\defence\armor\AngelicArmor.cs" />
+    <Compile Include="script\item\defence\armor\BattleArmor.cs" />
+    <Compile Include="script\item\defence\armor\BoneMail.cs" />
+    <Compile Include="script\item\defence\armor\BreastPlate.cs" />
+    <Compile Include="script\item\defence\armor\Cape.cs" />
+    <Compile Include="script\item\defence\armor\CelestialArmor.cs" />
+    <Compile Include="script\item\defence\armor\ChainMail.cs" />
+    <Compile Include="script\item\defence\armor\ChestGuard.cs" />
+    <Compile Include="script\item\defence\armor\Cloak.cs" />
+    <Compile Include="script\item\defence\armor\Cope.cs" />
+    <Compile Include="script\item\defence\armor\DarkMail.cs" />
+    <Compile Include="script\item\defence\armor\DiamondArmor.cs" />
+    <Compile Include="script\item\defence\armor\EnamelLeather.cs" />
+    <Compile Include="script\item\defence\armor\FullDress.cs" />
+    <Compile Include="script\item\defence\armor\FullPlate.cs" />
+    <Compile Include="script\item\defence\armor\GoldPlate.cs" />
+    <Compile Include="script\item\defence\armor\GoldVest.cs" />
+    <Compile Include="script\item\defence\armor\GoliathPlate.cs" />
+    <Compile Include="script\item\defence\armor\HardLeather.cs" />
+    <Compile Include="script\item\defence\armor\LeatherArmor.cs" />
+    <Compile Include="script\item\defence\armor\MailPlate.cs" />
+    <Compile Include="script\item\defence\armor\Mantle.cs" />
+    <Compile Include="script\item\defence\armor\Protectoria.cs" />
+    <Compile Include="script\item\defence\armor\PythonScale.cs" />
+    <Compile Include="script\item\defence\armor\QuiltedArmor.cs" />
+    <Compile Include="script\item\defence\armor\Rag.cs" />
+    <Compile Include="script\item\defence\armor\RingMail.cs" />
+    <Compile Include="script\item\defence\armor\Robe.cs" />
+    <Compile Include="script\item\defence\armor\SamuraiPlate.cs" />
+    <Compile Include="script\item\defence\armor\ScaleMail.cs" />
+    <Compile Include="script\item\defence\armor\Suit.cs" />
+    <Compile Include="script\item\defence\armor\Surplice.cs" />
+    <Compile Include="script\item\defence\armor\ToughLeather.cs" />
+    <Compile Include="script\item\defence\armor\WidePlate.cs" />
+    <Compile Include="script\item\defence\helm\BambooHat.cs" />
+    <Compile Include="script\item\defence\helm\Cap.cs" />
+    <Compile Include="script\item\defence\helm\Crown.cs" />
+    <Compile Include="script\item\defence\helm\FieldCap.cs" />
+    <Compile Include="script\item\defence\helm\FullHelmet.cs" />
+    <Compile Include="script\item\defence\helm\Gladiator.cs" />
+    <Compile Include="script\item\defence\helm\GrandeurHelmet.cs" />
+    <Compile Include="script\item\defence\helm\GrandeurPride.cs" />
+    <Compile Include="script\item\defence\helm\Headgear.cs" />
+    <Compile Include="script\item\defence\helm\Headpiece.cs" />
+    <Compile Include="script\item\defence\helm\Helmet.cs" />
+    <Compile Include="script\item\defence\helm\Hood.cs" />
+    <Compile Include="script\item\defence\helm\HornHelmet.cs" />
+    <Compile Include="script\item\defence\helm\LaurelCrown.cs" />
+    <Compile Include="script\item\defence\helm\Mask.cs" />
+    <Compile Include="script\item\defence\helm\PigBasket.cs" />
+    <Compile Include="script\item\defence\helm\ShineHelmet.cs" />
+    <Compile Include="script\item\defence\helm\UnicornProtectoria.cs" />
+    <Compile Include="script\item\defence\helm\VikingHelmet.cs" />
+    <Compile Include="script\item\defence\ring\BraveRing.cs" />
+    <Compile Include="script\item\defence\ring\BSRing.cs" />
+    <Compile Include="script\item\defence\ring\SRing.cs" />
+    <Compile Include="script\item\defence\shields\HolyDefender.cs" />
+    <Compile Include="script\item\defence\shields\StormShield.cs" />
+    <Compile Include="script\item\defence\unique\GMArmor.cs" />
+    <Compile Include="script\item\defence\unique\IFAB.cs" />
+    <Compile Include="script\item\defence\unique\MiyamotosStick.cs" />
+    <Compile Include="script\item\Gold.cs" />
+    <Compile Include="script\item\misc\Bone.cs" />
+    <Compile Include="script\item\misc\Dai.cs" />
+    <Compile Include="script\item\misc\DogBone.cs" />
+    <Compile Include="script\item\misc\LargeBone.cs" />
+    <Compile Include="script\item\misc\Zel.cs" />
+    <Compile Include="script\item\ore\BaseOre.cs" />
+    <Compile Include="script\item\ore\IronOre.cs" />
+    <Compile Include="script\item\potions\FullLifeDrug.cs" />
+    <Compile Include="script\item\potions\FullMagicDrug.cs" />
+    <Compile Include="script\item\potions\LifeDrug.cs" />
+    <Compile Include="script\item\defence\shields\ArmShield.cs" />
+    <Compile Include="script\item\defence\shields\BattleShield.cs" />
+    <Compile Include="script\item\defence\shields\Buckler.cs" />
+    <Compile Include="script\item\defence\shields\CoatingShield.cs" />
+    <Compile Include="script\item\defence\shields\FamilyShield.cs" />
+    <Compile Include="script\item\defence\shields\GrandShield.cs" />
+    <Compile Include="script\item\defence\shields\KiteShield.cs" />
+    <Compile Include="script\item\defence\shields\LargeShield.cs" />
+    <Compile Include="script\item\defence\shields\RoundShield.cs" />
+    <Compile Include="script\item\defence\shields\SmallShield.cs" />
+    <Compile Include="script\item\defence\shields\SquareShield.cs" />
+    <Compile Include="script\item\defence\shields\TowerShield.cs" />
+    <Compile Include="script\item\defence\shields\TriangleShield.cs" />
+    <Compile Include="script\item\potions\PromoteDrug.cs" />
+    <Compile Include="script\item\potions\PromoteMagicDrug.cs" />
+    <Compile Include="script\item\weapons\axe\BarbarianAxe.cs" />
+    <Compile Include="script\item\weapons\axe\BattleAxe.cs" />
+    <Compile Include="script\item\weapons\axe\BroadAxe.cs" />
+    <Compile Include="script\item\weapons\axe\GreatAxe.cs" />
+    <Compile Include="script\item\weapons\axe\Hatchet.cs" />
+    <Compile Include="script\item\weapons\axe\IceAxe.cs" />
+    <Compile Include="script\item\weapons\axe\LargeAxe.cs" />
+    <Compile Include="script\item\weapons\axe\One-EdgedAxe.cs" />
+    <Compile Include="script\item\weapons\axe\SmallAxe.cs" />
+    <Compile Include="script\item\weapons\axe\Tomahawk.cs" />
+    <Compile Include="script\item\weapons\axe\Two-BladedAxe.cs" />
+    <Compile Include="script\item\weapons\cane\Cadeceus.cs" />
+    <Compile Include="script\item\weapons\cane\Calypso.cs" />
+    <Compile Include="script\item\weapons\cane\Cane.cs" />
+    <Compile Include="script\item\weapons\cane\Crook.cs" />
+    <Compile Include="script\item\weapons\cane\GrandStaff.cs" />
+    <Compile Include="script\item\weapons\cane\Kassandra.cs" />
+    <Compile Include="script\item\weapons\cane\LongStaff.cs" />
+    <Compile Include="script\item\weapons\cane\Rod.cs" />
+    <Compile Include="script\item\weapons\cane\ShortStaff.cs" />
+    <Compile Include="script\item\weapons\cane\Wand.cs" />
+    <Compile Include="script\item\weapons\cane\WarStaff.cs" />
+    <Compile Include="script\item\weapons\hammer\Club.cs" />
+    <Compile Include="script\item\weapons\hammer\Flail.cs" />
+    <Compile Include="script\item\weapons\hammer\GiantHammer.cs" />
+    <Compile Include="script\item\weapons\hammer\GreatMaul.cs" />
+    <Compile Include="script\item\weapons\hammer\Hack.cs" />
+    <Compile Include="script\item\weapons\hammer\Halberd.cs" />
+    <Compile Include="script\item\weapons\hammer\Hammer.cs" />
+    <Compile Include="script\item\weapons\hammer\LargeHack.cs" />
+    <Compile Include="script\item\weapons\hammer\Mace.cs" />
+    <Compile Include="script\item\weapons\hammer\Maul.cs" />
+    <Compile Include="script\item\weapons\hammer\MorningStar.cs" />
+    <Compile Include="script\item\weapons\hammer\RocketMaul.cs" />
+    <Compile Include="script\item\weapons\hammer\Saw.cs" />
+    <Compile Include="script\item\weapons\hammer\Sickle.cs" />
+    <Compile Include="script\item\weapons\hammer\SpikedClub.cs" />
+    <Compile Include="script\item\weapons\hammer\TitanMace.cs" />
+    <Compile Include="script\item\weapons\hammer\WarHammer.cs" />
+    <Compile Include="script\item\weapons\spear\BambooSpear.cs" />
+    <Compile Include="script\item\weapons\spear\BattleLance.cs" />
+    <Compile Include="script\item\weapons\spear\DiamondStick.cs" />
+    <Compile Include="script\item\weapons\spear\ForkedSpear.cs" />
+    <Compile Include="script\item\weapons\spear\GreatLance.cs" />
+    <Compile Include="script\item\weapons\spear\Harpoon.cs" />
+    <Compile Include="script\item\weapons\spear\Javelin.cs" />
+    <Compile Include="script\item\weapons\spear\LongSpear.cs" />
+    <Compile Include="script\item\weapons\spear\ShortSpear.cs" />
+    <Compile Include="script\item\weapons\spear\Skewer.cs" />
+    <Compile Include="script\item\weapons\spear\TaegkFan.cs" />
+    <Compile Include="script\item\weapons\spear\WarPike.cs" />
+    <Compile Include="script\item\weapons\sword\BambooKnife.cs" />
+    <Compile Include="script\item\weapons\sword\BastardSword.cs" />
+    <Compile Include="script\item\weapons\sword\Blade.cs" />
+    <Compile Include="script\item\weapons\sword\BroadSword.cs" />
+    <Compile Include="script\item\weapons\sword\BronzeSword.cs" />
+    <Compile Include="script\item\weapons\sword\Claymore.cs" />
+    <Compile Include="script\item\weapons\sword\CoreaSword.cs" />
+    <Compile Include="script\item\weapons\sword\Cutlass.cs" />
+    <Compile Include="script\item\weapons\sword\DaeungDaegum.cs" />
+    <Compile Include="script\item\weapons\sword\Dagger.cs" />
+    <Compile Include="script\item\weapons\sword\DragonBlade.cs" />
+    <Compile Include="script\item\weapons\sword\Epee.cs" />
+    <Compile Include="script\item\weapons\sword\Excalibur.cs" />
+    <Compile Include="script\item\weapons\sword\Excalido.cs" />
+    <Compile Include="script\item\weapons\sword\ExtraScimitar.cs" />
+    <Compile Include="script\item\weapons\sword\Falchion.cs" />
+    <Compile Include="script\item\weapons\sword\Fleuret.cs" />
+    <Compile Include="script\item\weapons\sword\FSofdk.cs" />
+    <Compile Include="script\item\weapons\sword\GeneralSword.cs" />
+    <Compile Include="script\item\weapons\sword\Gladius.cs" />
+    <Compile Include="script\item\weapons\sword\GreatSword.cs" />
+    <Compile Include="script\item\weapons\sword\Haemosu.cs" />
+    <Compile Include="script\item\weapons\sword\Hanger.cs" />
+    <Compile Include="script\item\weapons\sword\IronSword.cs" />
+    <Compile Include="script\item\weapons\sword\Knife.cs" />
+    <Compile Include="script\item\weapons\sword\KVSword.cs" />
+    <Compile Include="script\item\weapons\sword\LionHeart.cs" />
+    <Compile Include="script\item\weapons\sword\LongSword.cs" />
+    <Compile Include="script\item\weapons\sword\OrientalSword.cs" />
+    <Compile Include="script\item\weapons\sword\PowerStrong.cs" />
+    <Compile Include="script\item\weapons\sword\Rapier.cs" />
+    <Compile Include="script\item\weapons\sword\Saber.cs" />
+    <Compile Include="script\item\weapons\sword\SamuraiSword.cs" />
+    <Compile Include="script\item\weapons\sword\Saver.cs" />
+    <Compile Include="script\item\weapons\sword\Seven-StarSword.cs" />
+    <Compile Include="script\item\weapons\sword\ShortSword.cs" />
+    <Compile Include="script\item\weapons\sword\Simitar.cs" />
+    <Compile Include="script\item\weapons\sword\Troy.cs" />
+    <Compile Include="script\item\weapons\sword\Tuck.cs" />
+    <Compile Include="script\item\weapons\sword\Two-HandSword.cs" />
+    <Compile Include="script\item\weapons\sword\WarriorAngel.cs" />
+    <Compile Include="script\item\weapons\sword\WoodenSword.cs" />
+    <Compile Include="script\map\Portal.cs" />
+    <Compile Include="script\monster\animal\WildDog.cs" />
+    <Compile Include="script\monster\demon\Biggun.cs" />
+    <Compile Include="script\monster\demon\Butcher.cs" />
+    <Compile Include="script\monster\demon\Dummy.cs" />
+    <Compile Include="script\monster\demon\GolemGuard.cs" />
+    <Compile Include="script\monster\demon\Great.cs" />
+    <Compile Include="script\monster\demon\GreatStone.cs" />
+    <Compile Include="script\monster\demon\Hag.cs" />
+    <Compile Include="script\monster\demon\HeadCutter.cs" />
+    <Compile Include="script\monster\demon\iButcher.cs" />
+    <Compile Include="script\monster\demon\iButcherBlue.cs" />
+    <Compile Include="script\monster\demon\iButcherGreen.cs" />
+    <Compile Include="script\monster\demon\iButcherRed.cs" />
+    <Compile Include="script\monster\demon\iDummy.cs" />
+    <Compile Include="script\monster\demon\iHardBoil.cs" />
+    <Compile Include="script\monster\demon\iStone.cs" />
+    <Compile Include="script\monster\demon\iStoneBlue.cs" />
+    <Compile Include="script\monster\demon\iStoneGreen.cs" />
+    <Compile Include="script\monster\demon\iStoneRed.cs" />
+    <Compile Include="script\monster\demon\ItemButcher.cs" />
+    <Compile Include="script\monster\demon\ItemDummy.cs" />
+    <Compile Include="script\monster\demon\ItemGolem.cs" />
+    <Compile Include="script\monster\demon\ItemHardBoil.cs" />
+    <Compile Include="script\monster\demon\ItemPigmy.cs" />
+    <Compile Include="script\monster\demon\ItemStone.cs" />
+    <Compile Include="script\monster\demon\ItemWarDummy.cs" />
+    <Compile Include="script\monster\demon\iWarDummy.cs" />
+    <Compile Include="script\monster\demon\Miro.cs" />
+    <Compile Include="script\monster\demon\NeoDummy.cs" />
+    <Compile Include="script\monster\demon\NeoGreatStone.cs" />
+    <Compile Include="script\monster\demon\NeoViking.cs" />
+    <Compile Include="script\monster\demon\NeoWarDummy.cs" />
+    <Compile Include="script\monster\demon\Pigmy.cs" />
+    <Compile Include="script\monster\demon\PigmyBlue.cs" />
+    <Compile Include="script\monster\demon\PigmyGreen.cs" />
+    <Compile Include="script\monster\demon\PigmyKing.cs" />
+    <Compile Include="script\monster\demon\PigmyRed.cs" />
+    <Compile Include="script\monster\demon\RestDummy.cs" />
+    <Compile Include="script\monster\demon\Stone.cs" />
+    <Compile Include="script\monster\demon\StoneGolem080.cs" />
+    <Compile Include="script\monster\demon\TreasureLand.cs" />
+    <Compile Include="script\monster\demon\Venture.cs" />
+    <Compile Include="script\monster\demon\Viking.cs" />
+    <Compile Include="script\monster\demon\vv.cs" />
+    <Compile Include="script\monster\demon\WarBadGirl.cs" />
+    <Compile Include="script\monster\demon\WarButcher.cs" />
+    <Compile Include="script\monster\demon\WarDummy.cs" />
+    <Compile Include="script\monster\demon\ZombieBlue.cs" />
+    <Compile Include="script\monster\Loot.cs" />
+    <Compile Include="script\monster\LootPackage.cs" />
+    <Compile Include="script\monster\nodes\BaseNode.cs" />
+    <Compile Include="script\monster\nodes\Iron.cs" />
+    <Compile Include="script\monster\SD.cs" />
+    <Compile Include="script\monster\undead\BoneDry.cs" />
+    <Compile Include="script\monster\undead\BoneDryBlue.cs" />
+    <Compile Include="script\monster\undead\BoneDryGreen.cs" />
+    <Compile Include="script\monster\undead\BoneDryRed.cs" />
+    <Compile Include="script\monster\undead\BonePatrol.cs" />
+    <Compile Include="script\monster\undead\GeneralSkel.cs" />
+    <Compile Include="script\monster\undead\HardBoild.cs" />
+    <Compile Include="script\monster\undead\HardBoild080.cs" />
+    <Compile Include="script\monster\undead\iMummy.cs" />
+    <Compile Include="script\monster\undead\iMummyBlue.cs" />
+    <Compile Include="script\monster\undead\iMummyGreen.cs" />
+    <Compile Include="script\monster\undead\iMummyRed.cs" />
+    <Compile Include="script\monster\undead\ItemMummy.cs" />
+    <Compile Include="script\monster\undead\ItemSkel.cs" />
+    <Compile Include="script\monster\undead\ItemZombie.cs" />
+    <Compile Include="script\monster\undead\LargeSkel.cs" />
+    <Compile Include="script\monster\undead\Mummy.cs" />
+    <Compile Include="script\monster\undead\NeoSkelEscottor.cs" />
+    <Compile Include="script\monster\undead\SkelEscottor.cs" />
+    <Compile Include="script\monster\undead\Skeleton.cs" />
+    <Compile Include="script\monster\undead\SkeletonRed.cs" />
+    <Compile Include="script\monster\demon\StoneGolem.cs" />
+    <Compile Include="script\monster\undead\SkelFighter.cs" />
+    <Compile Include="script\monster\undead\WarBone.cs" />
+    <Compile Include="script\monster\undead\Zombie.cs" />
+    <Compile Include="script\monster\undead\ZombieGreen.cs" />
+    <Compile Include="script\monster\undead\ZombieRed.cs" />
+    <Compile Include="script\npc\Alias.cs" />
+    <Compile Include="script\npc\Arnold.cs" />
+    <Compile Include="script\npc\Aron.cs" />
+    <Compile Include="script\npc\BaseNPC.cs" />
+    <Compile Include="script\item\defence\BaseArmor.cs" />
+    <Compile Include="script\item\spellbook\BaseSpellbook.cs" />
+    <Compile Include="script\item\Item.cs" />
+    <Compile Include="script\item\potions\BasePotion.cs" />
+    <Compile Include="script\item\potions\MagicDrug.cs" />
+    <Compile Include="script\item\defence\shields\BaseShield.cs" />
+    <Compile Include="script\item\weapons\BaseWeapon.cs" />
+    <Compile Include="script\monster\Monster.cs" />
+    <Compile Include="script\npc\Boy.cs" />
+    <Compile Include="script\npc\Employee.cs" />
+    <Compile Include="script\npc\Loen.cs" />
+    <Compile Include="script\spells\base\Spell.cs" />
+    <Compile Include="script\spells\base\SpellSequence.cs" />
+    <Compile Include="script\spells\common\Comeback.cs" />
+    <Compile Include="script\spells\ElectronicBall.cs" />
+    <Compile Include="script\spells\FireBall.cs" />
+    <Compile Include="script\spells\FireShot.cs" />
+    <Compile Include="script\spells\FireWall.cs" />
+    <Compile Include="script\spells\FlameRound.cs" />
+    <Compile Include="script\spells\common\Heal.cs" />
+    <Compile Include="script\spells\common\Pickup.cs" />
+    <Compile Include="script\spells\common\PlusHeal.cs" />
+    <Compile Include="script\spells\FlameWave.cs" />
+    <Compile Include="script\spells\knight\FrameStrike.cs" />
+    <Compile Include="script\spells\knight\MagicArmor.cs" />
+    <Compile Include="script\spells\knight\MentalSword.cs" />
+    <Compile Include="script\spells\knight\Twister.cs" />
+    <Compile Include="script\spells\Lightning.cs" />
+    <Compile Include="script\spells\LightningWall.cs" />
+    <Compile Include="script\spells\shaman\Assassin.cs" />
+    <Compile Include="script\spells\shaman\AssassinSpecial.cs" />
+    <Compile Include="script\spells\shaman\BlackHand.cs" />
+    <Compile Include="script\spells\shaman\DeadlyMessenger.cs" />
+    <Compile Include="script\spells\shaman\FireProtector.cs" />
+    <Compile Include="script\spells\shaman\MagmaHand.cs" />
+    <Compile Include="script\spells\shaman\Radiation.cs" />
+    <Compile Include="script\spells\shaman\Revelation.cs" />
+    <Compile Include="script\spells\shaman\StoneCurse.cs" />
+    <Compile Include="script\spells\shaman\TeagueShield.cs" />
+    <Compile Include="script\spells\shaman\WindySpirit.cs" />
+    <Compile Include="script\spells\Sidewinder.cs" />
+    <Compile Include="script\spells\swordsman\DemonDeath.cs" />
+    <Compile Include="script\spells\swordsman\Execution.cs" />
+    <Compile Include="script\spells\swordsman\FlyingSword.cs" />
+    <Compile Include="script\spells\swordsman\GuardianSword.cs" />
+    <Compile Include="script\spells\common\Teleport.cs" />
+    <Compile Include="script\spells\common\Trace.cs" />
+    <Compile Include="script\spells\swordsman\Triple.cs" />
+    <Compile Include="script\spells\ThunderCross.cs" />
+    <Compile Include="script\spells\wizard\BigBang.cs" />
+    <Compile Include="script\spells\wizard\Butterfly.cs" />
+    <Compile Include="script\spells\wizard\CurveShock.cs" />
+    <Compile Include="script\spells\wizard\DeadlyBoom.cs" />
+    <Compile Include="script\spells\wizard\DragonOfFire.cs" />
+    <Compile Include="script\spells\wizard\Firefly.cs" />
+    <Compile Include="script\spells\wizard\FireHawk.cs" />
+    <Compile Include="script\spells\wizard\Freezing.cs" />
+    <Compile Include="script\spells\wizard\GrandBigBang.cs" />
+    <Compile Include="script\spells\wizard\HailStorm.cs" />
+    <Compile Include="script\spells\wizard\MagicShield.cs" />
+    <Compile Include="script\spells\wizard\RainbowArmor.cs" />
+    <Compile Include="script\spells\wizard\ThunderStorm.cs" />
+    <Compile Include="script\spells\wizard\Tornado.cs" />
+    <Compile Include="script\spells\wizard\UltraBigBang.cs" />
+    <Compile Include="script\spells\wizard\WildMonk.cs" />
+    <Compile Include="script\spells\ZigZag.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="util\Config.cs" />
+    <Compile Include="util\Cryption.cs" />
+    <Compile Include="web\WebClient.cs" />
+    <Compile Include="web\wslistener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

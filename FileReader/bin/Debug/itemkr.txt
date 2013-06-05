@@ -1,0 +1,113 @@
+﻿															    bg      kn     sw    wiz    sha
+KNIFE               SWORD       0              0          50       O     O     O     X      X      
+BAMBOO KNIFE        SWORD       0              0          70       O     O     O     X      X
+WOODEN SWORD        SWORD       0              0          80       O     O     O     X      X
+DAGGER              SWORD       0              0         100       O     O     O     X      X 
+SHORT SWORD         SWORD       0              0         120       O     O     O     X      X 
+FLEURET             SWORD       55            20         150       X     O     O     X      X 
+RAPIER              SWORD       64            22         180       X     O     O     X      X 
+BRONZE SWORD        SWORD       73            24         190       X     X     O     X      X 
+SABER               SWORD       83            26         200       X     O     O     X      X 
+EPEE                SWORD      103            33         220       X     O     O     X      X 
+BLADE               SWORD      122            37         300       X     O     O     X      X 
+HANGER              SWORD      141            42         400       X     O     O     X      X 
+SAVER               SWORD      151            46         400       X     O     O     X      X 
+SIMITAR             SWORD      160            49         450       X     O     O     X      X 
+LONG SWORD          SWORD      180            54         350       X     O     O     X      X 
+CUTLASS             SWORD      180            54         450       X     O     O     X      X 
+IRON SWORD          SWORD      204            61         420       X     O     O     X      X 
+BROAD SWORD         SWORD      277            81         480       X     O     O     X      X 
+FALCHION            SWORD      351           101         500       X     O     O     X      X 
+CLAYMORE            SWORD      400           115         550       X     O     O     X      X 
+ORIENTAL SWORD      SWORD      425           123         575       X     X     O     X      X 
+GLADIUS             SWORD      450           129         600       X     O     O     X      X 
+TUCK                SWORD      500           144         650       X     O     O     X      X 
+SAMURAI SWORD       SWORD      550           157         800       X     X     O     X      X 
+BASTARD SWORD       SWORD      566           160         800       X     O     X     X      X 
+SEVEN-STAR SWORD    SWORD      583           166         900       X     X     O     X      X 
+COREA SWORD         SWORD      600           171         900       X     X     O     X      X 
+TWO-HAND SWORD      SWORD      500           144         900       X     O     X     X      X 
+GREAT SWORD         SWORD      620           176        1200       X     O     X     X      X 
+TROY                SWORD      620             0        1200       X     O     O     X      X 
+
+HATCHET             AXE         50             0         120       X     O     X     X      X 
+SMALL AXE           AXE         74             0         200       X     O     X     X      X 
+ONE-EDGED AXE       AXE        112            34         300       X     O     X     X      X 
+ICE AXE             AXE        253            81         500       X     O     X     X      X 
+TWO-BLADED AXE      AXE        425           123         600       X     O     X     X      X 
+BROAD AXE           AXE        302            95         700       X     O     X     X      X 
+LARGE AXE           AXE        420           123         850       X     O     X     X      X 
+BATTLE AXE          AXE        540           153         950       X     O     X     X      X 
+GREAT AXE           AXE        660           189        1100       X     O     X     X      X 
+
+CLUB               HAMMER       18             0          80       X     O     X     X      X 
+SICKLE             HAMMER       30             0          150      X     O     X     X      X 
+SAW                HAMMER       40             0          200      X     O     X     X      X 
+SPIKED CLUB        HAMMER       93            30          250      X     O     X     X      X 
+MORNING STAR       HAMMER      131            39          300      X     O     X     X      X 
+MACE               HAMMER      170            50          400      X     O     X     X      X 
+FLAIL              HAMMER      326            94          500      X     O     X     X      X 
+HAMMER             HAMMER      375           109          650      X     O     X     X      X 
+HACK               HAMMER      228            67          750      X     O     X     X      X 
+WAR HAMMER         HAMMER      525           150          750      X     O     X     X      X 
+LARGE HACK         HAMMER      460           133          800      X     O     X     X      X 
+MAUL               HAMMER      475           136          900      X     O     X     X      X 
+HALBERD            HAMMER      580           165          950      X     O     X     X      X 
+GREAT MAUL         HAMMER      700           200         1000      X     O     X     X      X 
+        
+HOOD               HELMET        0             0            30     O     O     O     O      O 
+CAP                HELMET        0             0            65     O     O     O     O      O 
+HEADPIECE          HELMET       60            18           120     O     O     O     O      O 
+MASK               HELMET      101             0           180     O     O     O     O      O 
+BAMBOO HAT         HELMET      121             0           230     X     X     X     X      O 
+HEADGEAR           HELMET      143             0           310     O     O     O     O      O 
+HELMET             HELMET      185             0           450     O     O     O     O      O 
+HORN HELMET        HELMET      206             0           525     O     O     O     O      O 
+CROWN              HELMET      227             0           600     X     O     X     O      X 
+SHINE HELMET       HELMET      274             0           660     X     X     X     O      X 
+FIELD CAP          HELMET      322            92           720     X     O     O     X      X 
+FULL HELMET        HELMET      417           120           800     X     O     O     X      X 
+GRANDEUR HELMET    HELMET      513           146          1000     X     O     X     X      X 
+           
+BUCKLER            SHIELD        0             0            50     O     O     X     X      X 
+ROUND SHIELD       SHIELD        0             0            80     O     O     X     X      X 
+SMALL SHIELD       SHIELD       22             0           130     O     O     X     X      X 
+SQUARE SHIELD      SHIELD       93             0           180     X     O     X     X      X 
+TRIANGLE SHIELD    SHIELD      151            45           280     X     O     X     X      X 
+LARGE SHIELD       SHIELD      209             0           380     X     O     X     X      X 
+TOWER SHIELD       SHIELD      267             0           480     X     O     X     X      X 
+COATING SHIELD     SHIELD      325            92           600     X     O     X     X      X 
+BATTLE SHIELD      SHIELD      384             0           700     X     O     X     X      X 
+ARM SHIELD         SHIELD      442           125           790     X     O     X     X      X 
+FAMILY SHIELD      SHIELD      501             0           880     X     O     X     X      X 
+GRAND SHIELD       SHIELD      560             0          1000     X     O     X     X      X 
+KITE SHIELD        SHIELD      560             0          1000     X     O     X     X      X 
+
+RAG                ARMOR         0             0           80      O     O     O     O      O 
+SUIT               ARMOR        15             0          150      O     O     O     O      O 
+FULL DRESS         ARMOR        18             0          180      O     O     O     O      O 
+SURPLICE           ARMOR        22             0          220      O     O     O     O      O 
+CAPE               ARMOR        93             0          250      O     O     O     O      O 
+MANTLE             ARMOR       118             0          300      O     O     O     O      O 
+CLOAK              ARMOR       143            42          360      O     O     O     O      O 
+COPE               ARMOR       169             0          400      O     O     O     O      O 
+QUILTED ARMOR      ARMOR       194            56          480      O     O     O     O      O 
+ROBE               ARMOR       220             0          520      O     O     O     O      O 
+LEATHER ARMOR      ARMOR       251             0          580      O     O     O     O      O 
+HARD LEATHER       ARMOR       282             0          660      O     O     O     O      O 
+ENAMEL LEATHER     ARMOR       313            90          720      O     O     O     O      O 
+TOUGH LEATHER      ARMOR       345             0          750      O     O     O     O      O 
+CHEST GUARD        ARMOR       373           107          770      O     O     O     O      O 
+BATTLE ARMOR       ARMOR       401             0          880      O     O     O     O      O 
+BONE MAIL          ARMOR       429             0          950      O     O     O     O      O 
+RING MAIL          ARMOR       457             0          990      O     O     O     O      O 
+CHAIN MAIL         ARMOR       485             0         1050      O     O     O     O      O 
+SCALE MAIL         ARMOR      513            146         1100      O     O     O     O      O 
+BREAST PLATE       ARMOR      553              0         1150      O     O     O     O      O 
+MAIL PLATE         ARMOR      593              0         1200      O     O     O     O      O 
+SAMURAI PLATE      ARMOR      633              0         1350      O     O     O     O      O 
+WIDE PLATE         ARMOR      673            190         1400      O     O     O     O      O 
+FULL PLATE         ARMOR      714              0         1500      O     O     O     O      O 
+
+RING               RING         0              0         1000      O     O     O     O      O 
+AMULET             AMULET       0              0         1000      O     O     O     O      O 

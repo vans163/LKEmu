@@ -1,0 +1,106 @@
+Knife, Sword, 0, 0, 50, 0, 3, Class.Beginner | Class.Knight | Class.Swordsman
+Bamboo Knife, Sword, 0, 0, 70, 0, 4, Class.Beginner | Class.Knight | Class.Swordsman
+Wooden Sword, Sword, 0, 0, 80, 0, 5, Class.Beginner | Class.Knight | Class.Swordsman
+Dagger, Sword, 0, 0, 100, 0, 8, Class.Beginner | Class.Knight | Class.Swordsman
+Short Sword, Sword, 0, 0, 120, 0, 11, Class.Beginner | Class.Knight | Class.Swordsman
+Fleuret, Sword, 55, 20, 150, 0, 15, Class.Knight | Class.Swordsman
+Rapier, Sword, 64, 22, 180, 0, 16, Class.Knight | Class.Swordsman
+Bronze Sword, Sword, 73, 24, 190, , , Class.Swordsman
+Saber, Sword, 83, 26, 200, 0, 19, Class.Knight | Class.Swordsman
+Epee, Sword, 103, 33, 220, 0, 26, Class.Knight | Class.Swordsman
+Blade, Sword, 122, 37, 300, 0, 25, Class.Knight | Class.Swordsman
+Hanger, Sword, 141, 42, 400, 0, 0, Class.Knight | Class.Swordsman
+Saver, Sword, 151, 46, 400, 0, 0, Class.Knight | Class.Swordsman
+Simitar, Sword, 160, 49, 450, 0, 0, Class.Knight | Class.Swordsman
+Long Sword, Sword, 180, 54, 350, 0, 0, Class.Knight | Class.Swordsman
+Cutlass, Sword, 180, 54, 450, 0, 0, Class.Knight | Class.Swordsman
+Iron Sword, Sword, 204, 61, 420, 0, 0, Class.Knight | Class.Swordsman
+Broad Sword, Sword, 277, 81, 480, 0, 0, Class.Knight | Class.Swordsman
+Falchion, Sword, 351, 101, 500, 0, 0, Class.Knight | Class.Swordsman
+Claymore, Sword, 400, 115, 550, 0, 0, Class.Knight | Class.Swordsman
+Oriental Sword, Sword, 425, 123, 575, , , Class.Swordsman
+Gladius, Sword, 450, 129, 600, 0, 0, Class.Knight | Class.Swordsman
+Tuck, Sword, 500, 144, 650, 0, 0, Class.Knight | Class.Swordsman
+Samurai Sword, Sword, 550, 157, 800, 0, 0, Class.Swordsman
+Bastard Sword, Sword, 566, 160, 800, 0, 0, Class.Knight
+Seven-Star Sword, Sword, 583, 166, 900, 0, 0, Class.Swordsman
+Corea Sword, Sword, 600, 171, 900, 130, 0, Class.Swordsman
+Two-Hand Sword, Sword, 500, 144, 900, 122, 0, Class.Knight
+Great Sword, Sword, 620, 176, 1200, 157, 0, Class.Knight
+Troy, Sword, 620, 0, 1200, , , Class.Knight | Class.Swordsman
+Hatchet, Axe, 50, 0, 120, 0, 13, Class.Knight
+Small Axe, Axe, 74, 0, 200, 0, 18, Class.Knight
+One-Edged Axe, Axe, 112, 34, 300, 0, 24, Class.Knight
+Ice Axe, Axe, 253, 81, 500, 0, 0, Class.Knight
+Two-Bladed Axe, Axe, 425, 123, 600, 0, 0, Class.Knight
+Broad Axe, Axe, 302, 95, 700, 0, 0, Class.Knight
+Large Axe, Axe, 420, 123, 850, 0, 0, Class.Knight
+Battle Axe, Axe, 540, 153, 950, 0, 0, Class.Knight
+Great Axe, Axe, 660, 189, 1100, 168, 0, Class.Knight
+Club, Hammer, 18, 0, 80, 0, 7, Class.Knight
+Sickle, Hammer, 30, 0, 150, 0, 9, Class.Knight
+Saw, Hammer, 40, 0, 200, 0, 12, Class.Knight
+Spiked Club, Hammer, 93, 30, 250, 0, 21, Class.Knight
+Morning Star, Hammer, 131, 39, 300, 0, 35, Class.Knight
+Mace, Hammer, 170, 50, 400, 0, 0, Class.Knight
+Flail, Hammer, 326, 94, 500, 0, 0, Class.Knight
+Hammer, Hammer, 375, 109, 650, 0, 0, Class.Knight
+Hack, Hammer, 228, 67, 750, 0, 0, Class.Knight
+War Hammer, Hammer, 525, 150, 750, 0, 0, Class.Knight
+Large Hack, Hammer, 460, 133, 800, 0, 0, Class.Knight
+Maul, Hammer, 475, 136, 900, 0, 0, Class.Knight
+Halberd, Hammer, 580, 165, 950, 145, 0, Class.Knight
+Great Maul, Hammer, 700, 200, 1000, 180, 0, Class.Knight
+Hood, Helmet, 0, 0, 30, 4, 0, 0
+Cap, Helmet, 0, 0, 65, 7, 0, 0
+Headpiece, Helmet, 60, 18, 120, 0, 10, 0
+Mask, Helmet, 101, 0, 180, 15, 0, 0
+Bamboo Hat, Helmet, 121, 0, 230, , , Class.Shaman
+Headgear, Helmet, 143, 0, 310, 20, 0, 0
+Helmet, Helmet, 185, 0, 450, 27, 0, 0
+Horn Helmet, Helmet, 206, 0, 525, , , 0
+Crown, Helmet, 227, 0, 600, 33, 0, Class.Knight | Class.Wizard
+Shine Helmet, Helmet, 274, 0, 660, , , Class.Wizard
+Field Cap, Helmet, 322, 92, 720, 41, 0, Class.Knight | Class.Swordsman
+Full Helmet, Helmet, 417, 120, 800, 49, 0, Class.Knight | Class.Swordsman
+Grandeur Helmet, Helmet, 513, 146, 1000, 0, 0, Class.Knight
+Buckler, Shield, 0, 0, 50, 5, 0, Class.Beginner | Class.Knight
+Round Shield, Shield, 0, 0, 80, 8, 0, Class.Beginner | Class.Knight
+Small Shield, Shield, 22, 0, 130, 11, 0, Class.Beginner | Class.Knight
+Square Shield, Shield, 93, 0, 180, 0, 16, Class.Knight
+Triangle Shield, Shield, 151, 45, 280, 26, 0, Class.Knight
+Large Shield, Shield, 209, 0, 380, 38, 0, Class.Knight
+Tower Shield, Shield, 267, 0, 480, 50, 0, Class.Knight
+Coating Shield, Shield, 325, 92, 600, 59, 0, Class.Knight
+Battle Shield, Shield, 384, 0, 700, 68, 0, Class.Knight
+Arm Shield, Shield, 442, 125, 790, 84, 0, Class.Knight
+Family Shield, Shield, 501, 0, 880, 94, 0, Class.Knight
+Grand Shield, Shield, 560, 0, 1000, 0, 0, Class.Knight
+Kite Shield, Shield, 560, 0, 1000, , , Class.Knight
+Rag, Armor, 0, 0, 80, 8, 0, 0
+Suit, Armor, 15, 0, 150, 13, 0, 0
+Full Dress, Armor, 18, 0, 180, 19, 0, 0
+Surplice, Armor, 22, 0, 220, 24, 0, 0
+Cape, Armor, 93, 0, 250, 30, 0, 0
+Mantle, Armor, 118, 0, 300, 39, 0, 0
+Cloak, Armor, 143, 42, 360, 52, 0, 0
+Cope, Armor, 169, 0, 400, 0, 57, 0
+Quilted Armor, Armor, 194, 56, 480, 66, 0, 0
+Robe, Armor, 220, 0, 520, 82, 0, 0
+Leather Armor, Armor, 251, 0, 580, 83, 0, 0
+Hard Leather, Armor, 282, 0, 660, 92, 0, 0
+Enamel Leather, Armor, 313, 90, 720, 101, 0, 0
+Tough Leather, Armor, 345, 0, 750, 117, 0, 0
+Chest Guard, Armor, 373, 107, 770, 119, 0, 0
+Battle Armor, Armor, 401, 0, 880, 128, 0, 0
+Bone Mail, Armor, 429, 0, 950, 150, 0, 0
+Ring Mail, Armor, 457, 0, 990, 146, 0, 0
+Chain Mail, Armor, 485, 0, 1050, 155, 0, 0
+Scale Mail, Armor, 513, 146, 1100, 165, 0, 0
+Breast Plate, Armor, 553, 0, 1150, 177, 0, 0
+Mail Plate, Armor, 593, 0, 1200, 0, 0, 0
+Samurai Plate, Armor, 633, 0, 1350, 0, 0, 0
+Wide Plate, Armor, 673, 190, 1400, 0, 0, 0
+Full Plate, Armor, 714, 0, 1500, 0, 0, 0
+Ring, Ring, 0, 0, 1000, , , 0
+Amulet, Amulet, 0, 0, 1000, , , 0

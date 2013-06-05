@@ -1,0 +1,286 @@
+﻿//46B5BE mov     eax, ds:off_47A600; jumptable 0046B08B cases 0-11
+//case 1 IDCreated
+//case 3 IDExists
+//case 4 CloseLogin
+//case 5 WrongPass
+//case 6 NoSuchID
+//case 7 AlreadyOnline
+//case 8 IDDeleted
+//case 9 DeleteingIDFailed
+//case 10 WrongID
+
+public abstract class op11
+{
+}
+//46B5D5 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 13
+//case 13 UpdateChatbox
+public abstract class op13
+{
+short ( 2 ) // 46B5E1 3
+}
+//46B611 mov     eax, ds:off_47A5C4; jumptable 0046B08B cases 15-
+//case 15 SetLevelGold
+//case 16 SetHP
+//case 17 SetMP
+//case 18 GoldChange
+//case 19 XPChange
+//case 20 UpdateCharStats
+public abstract class op20
+{
+}
+//46B7FD mov     eax, ds:off_47A730; jumptable 0046B08B cases 21-24
+
+//case 21 EquipItem
+//case 22 DeleteEquipItem
+//case 23 AddItemToInventory2
+//case 24 DeleteItemSlot
+public abstract class op24
+{
+}
+//46B814 mov     eax, ds:off_47A590; jumptable 0046B08B cases 25,26
+//case 25 CreateSlotMagic
+//case 26 DeleteSpell
+public abstract class op26
+{
+}
+//46B628 mov     eax, ds:off_47A510; jumptable 0046B08B case 27
+//case 27 LoadWorld
+public abstract class op27
+{
+byte ( -1 ) // 46B643 0
+byte[] ( 38 ) // 46B6C5 38
+byte ( -36 ) // 46B6D8 2
+byte[] ( 8 ) // 46B6E7 10
+short ( 2 ) // 46B6EF 12
+short ( 2 ) // 46B6F7 14
+byte ( -12 ) // 46B70D 2
+byte[] ( 10 ) // 46B72D 12
+short ( 2 ) // 46B741 14
+byte[] ( 462 ) // 46B774 476
+int ( 4 ) // 46B7A8 480
+}
+byte ( 1 ) // 46B7E8 2
+}
+//46BBF9 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 28
+//case 28 MoveSpriteTele
+public abstract class op28
+{
+byte ( -1 ) // 46BC16 0
+byte[] ( 5 ) // 46BC2C 5
+short ( 2 ) // 46BC37 7
+short ( 2 ) // 46BC42 9
+//46BC60 mov     cx, 1Ch
+}
+//46B82B lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 29
+//case 29 CreateItemGround/Monster/Player
+public abstract class op29
+{
+byte[] ( 10 ) // 46B854 11
+}
+int ( 4 ) // 46B878 5
+short ( 2 ) // 46B883 7
+short ( 2 ) // 46B88E 9
+}
+int ( 4 ) // 46B8E1 5
+short ( 2 ) // 46B8EC 7
+short ( 2 ) // 46B8F7 9
+}
+int ( 4 ) // 46B94A 5
+short ( 2 ) // 46B955 7
+short ( 2 ) // 46B960 9
+}
+byte[] ( 6 ) // 46B9B3 7
+short ( 2 ) // 46B9BE 9
+byte ( -4 ) // 46B9D3 5
+//46B9D3 mov     cx, [eax+5]
+}
+//46BC77 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 30
+//case 30 DeleteObject
+public abstract class op30
+{
+}
+//46BC93 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 31
+//case 31 MoveSpriteWalkChar
+public abstract class op31
+{
+int ( 4 ) // 46BCAB 5
+short ( 2 ) // 46BCB6 7
+short ( 2 ) // 46BCC1 9
+//46BCD6 mov     cx, 1Fh
+byte ( 0 ) // 46BCF7 9
+byte ( -2 ) // 46BD00 7
+byte ( -2 ) // 46BD09 5
+short ( 2 ) // 46BD37 7
+short ( 2 ) // 46BD4E 9
+byte[] ( 467 ) // 46BD81 476
+}
+//46BD91 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 32
+public abstract class op32
+{
+//46BDD8 mov     cx, 20h
+//46BDEC mov     cx, 1Dh
+}
+//46BBA8 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 33
+//case 33 SwingAnimationChar
+public abstract class op33
+{
+int ( 4 ) // 46BBC0 5
+//46BBE2 mov     cx, 21h
+}
+//46BB57 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 34
+//case 34 ChangeFace
+public abstract class op34
+{
+int ( 4 ) // 46BB6F 5
+//46BB91 mov     cx, 22h
+}
+//46BE29 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 35
+//case 35 HitAnimation
+public abstract class op35
+{
+int ( 4 ) // 46BE41 5
+//46BE69 mov     cx, 23h
+}
+//46BF4A lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 37
+NEW//case 37 SingleCastOnSpriteSpellEffectPlays
+public abstract class op37
+{
+int ( 4 ) // 46BF56 5
+//46BF87 mov     cx, 25h
+}
+//46BF9E lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 38
+//case 38 ChangeObjectSprite
+public abstract class op38
+{
+byte[] ( 17 ) // 46BFAA 18
+//46BFE3 mov     cx, 26h
+}
+//46BE80 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 39
+NEW//case 39 brightness  
+public abstract class op39
+{
+int ( 4 ) // 46BE98 5
+//46BEBA mov     cx, 27h
+}
+//46BED1 lea     eax, [ebp+var_10C4]; jumptable 0046B08B case 40
+//case 40 CurveMagic
+public abstract class op40
+{
+int ( 4 ) // 46BEE9 5
+short ( 2 ) // 46BEF4 7
+byte[] ( 15 ) // 46BF09 22
+short ( 2 ) // 46BF13 24
+byte ( 1 ) // 46BF1E 25
+byte ( -2 ) // 46BF2B 23
+}
+//46C071 mov     eax, ds:off_47A474; jumptable 0046B08B cases 41-43,47
+NEW//case BOARDRELATED
+public abstract class op47
+{
+}
+
+//case 49 AddItemToEntrust
+//case 50 DeleteEntrustSlot
+//46B4FB lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 51
+public abstract class op51
+{
+}
+byte[] ( 475 ) // 46B527 476
+byte ( -360 ) // 46B52D 116
+}
+byte[] ( 483 ) // 46B5AE 484
+}
+//46BFFA lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 52
+//case 52 SetObjectEffectsMonster/Player/ETC
+public abstract class op52
+{
+int ( 4 ) // 46C006 5
+int ( 4 ) // 46C00F 9
+int ( 4 ) // 46C018 13
+//46C049 mov     cx, 34h
+}
+//46B3F6 mov     eax, [ebp+var_4]; jumptable 0046B169 case 53
+public abstract class op53
+{
+byte[] ( 525 ) // 46B3F9 526
+int ( 4 ) // 46B447 530
+int ( 4 ) // 46B4A3 534
+byte ( -8 ) // 46B4D4 526
+}
+}
+//46B3C0 push    ebp             ; jumptable 0046B169 case 54
+public abstract class op54
+{
+}
+//46B2E8 lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 55
+public abstract class op55
+{
+byte[] ( 5 ) // 46B2F7 6
+byte[] ( 482 ) // 46B303 488
+byte ( -488 ) // 46B309 0
+byte[] ( 492 ) // 46B316 492
+byte ( -452 ) // 46B31C 40
+byte[] ( 452 ) // 46B337 492
+byte ( -452 ) // 46B33D 40
+}
+//46B2C9 lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 56
+//case 56 PlayMusic
+public abstract class op56
+{
+byte[] ( 525 ) // 46B2D8 526
+}
+//46B2A9 lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 57
+//case 57 TimeBrightness again
+public abstract class op57
+{
+}
+//46B9F3 lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 58
+//case 58 CreateNPC
+public abstract class op58
+{
+int ( 4 ) // 46BA1C 5
+short ( 2 ) // 46BA27 7
+short ( 2 ) // 46BA32 9
+byte[] ( 15 ) // 46BA4B 24
+}
+int ( 4 ) // 46BAA2 5
+short ( 2 ) // 46BAAD 7
+short ( 2 ) // 46BAB8 9
+byte[] ( 15 ) // 46BAD1 24
+}
+//46BAFF lea     eax, [ebp+var_10C4]; jumptable 0046B169 case 60
+public abstract class op60
+{
+int ( 4 ) // 46BB17 5
+//46BB40 mov     cx, 3Ch
+}
+//46C05D mov     eax, ds:off_47A6B0; jumptable 0046B1B7 case 62
+//case 62 SpawnShopGump
+public abstract class op62
+{
+}
+//46B263 lea     eax, [ebp+var_10C4]; jumptable 0046B1B7 case 63
+//case 63 automove
+public abstract class op63
+{
+short ( 2 ) // 46B28D 3
+byte ( -2 ) // 46B29D 1
+}
+//46B354 lea     eax, [ebp+var_10C4]; jumptable 0046B1B7 case 64
+public abstract class op64
+{
+byte[] ( 487 ) // 46B36F 488
+byte ( -488 ) // 46B375 0
+byte[] ( 492 ) // 46B382 492
+byte ( -452 ) // 46B388 40
+byte[] ( 452 ) // 46B3A3 492
+byte ( -452 ) // 46B3A9 40
+}
+//46B1FB lea     eax, [ebp+var_10C4]; jumptable 0046B1B7 case 66
+public abstract class op66
+{
+byte[] ( 475 ) // 46B21E 476
+byte[] ( 8 ) // 46B22E 484
+byte[] ( 20 ) // 46B23E 504
+byte ( -28 ) // 46B250 476
+}
