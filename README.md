@@ -1,6 +1,8 @@
 LKEmu
 ======
 
+Homepage:   http://lk.kingdomofk.net/forum/viewtopic.php?f=15&t=6
+
 C# Emulator /w Tools for mmorpg classic The Last Kingdom.
 
 [devTool]:
