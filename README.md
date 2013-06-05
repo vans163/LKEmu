@@ -17,9 +17,11 @@ Ignore the psuedo packet structure, that was a failed idapython attempt.
 [VIF]:
 very import files folder. Use these to save time REing.
 
-ClientWindowed2.exerename is the binary. Rename it to .exe.
-ClientWindowed2.idc is a IDC script for IDA with Dephi names from IDR.
-http://www.speedyshare.com/NfFYr/ClientWindowed2.idb IDB for IDA with some naming
+	ClientWindowed2.exerename is the binary. Rename it to .exe.
+	
+	ClientWindowed2.idc is a IDC script for IDA with Dephi names from IDR.
+	
+	http://www.speedyshare.com/NfFYr/ClientWindowed2.idb IDB for IDA with some naming
 
 
 
