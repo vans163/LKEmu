@@ -9,7 +9,7 @@ namespace LKCamelot.script.npc
     {
         public override string Name { get { return "Loen"; } }
         public override string Map { get { return "Loen"; } }
-        public override string ChatString { get { return "Leon: Click on me to see the menu."; } }
+        public override string ChatString { get { return "Loen: Click on me to see the menu."; } }
         public override int ID { get { return (int)LKCamelot.library.NPCs.Loen; } }
         public override int X { get { return 13; } }
         public override int Y { get { return 8; } }
