@@ -66,3 +66,14 @@ C:\LK2Cam\wfa2\LKCamelot\bin\Debug\protobuf-net.xml
 C:\EmuExample\LKEmu\LKEmu\LKCamelot\bin\Debug\LKCamelot.exe.config
 C:\EmuExample\LKEmu\LKEmu\LKCamelot\obj\x86\Debug\LKCamelot.exe
 C:\EmuExample\LKEmu\LKEmu\LKCamelot\obj\x86\Debug\LKCamelot.pdb
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\LKCamelot.exe.config
+D:\LKEmuOpen\LKEmu\LKCamelot\obj\x86\Debug\LKCamelot.exe
+D:\LKEmuOpen\LKEmu\LKCamelot\obj\x86\Debug\LKCamelot.pdb
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\LKCamelot.exe
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\LKCamelot.pdb
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\Fleck.dll
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\protobuf-net.dll
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\Fleck.pdb
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\protobuf-net.pdb
+D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\protobuf-net.xml
+D:\LKEmuOpen\LKEmu\LKCamelot\obj\x86\Debug\ResolveAssemblyReference.cache

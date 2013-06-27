@@ -92,6 +92,9 @@ namespace LKCamelot
             (new Thread(IOThread.run)).Start();
             (new Thread(ClientHandler.run)).Start();
             (new Thread(WebServer.run)).Start();
+            Console.WriteLine("Loading tapping list");
+            LKCamelot.model.Modules.NSA.LoadTapList();
+
             int waitFails = 0;
             long lastTicks = CurrentTimeMillis();
             long totalTimeSpentProcessing = 0;

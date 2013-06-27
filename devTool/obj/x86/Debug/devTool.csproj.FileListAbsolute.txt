@@ -6,3 +6,11 @@ C:\LK2Cam\wfa2\devTool\obj\x86\Debug\devTool.pdb
 C:\LK2Cam\wfa2\devTool\obj\x86\Debug\devTool.Form1.resources
 C:\LK2Cam\wfa2\devTool\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\LK2Cam\wfa2\devTool\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\LKEmuOpen\LKEmu\devTool\bin\Debug\devTool.exe
+D:\LKEmuOpen\LKEmu\devTool\bin\Debug\devTool.pdb
+D:\LKEmuOpen\LKEmu\devTool\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\LKEmuOpen\LKEmu\devTool\obj\x86\Debug\devTool.Form1.resources
+D:\LKEmuOpen\LKEmu\devTool\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\LKEmuOpen\LKEmu\devTool\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\LKEmuOpen\LKEmu\devTool\obj\x86\Debug\devTool.exe
+D:\LKEmuOpen\LKEmu\devTool\obj\x86\Debug\devTool.pdb

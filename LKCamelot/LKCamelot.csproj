@@ -82,9 +82,11 @@
     <Compile Include="model\Client.cs" />
     <Compile Include="model\CombatHandler.cs" />
     <Compile Include="model\CombatHandler2.cs" />
+    <Compile Include="model\Modules\NSA.cs" />
     <Compile Include="model\Objects\BaseObject.cs" />
     <Compile Include="model\Objects\Geometry.cs" />
     <Compile Include="model\Objects\Player.cs" />
+    <Compile Include="model\PacketOP.cs" />
     <Compile Include="model\Serial.cs" />
     <Compile Include="model\Serialization.cs" />
     <Compile Include="model\Messages.cs" />
@@ -465,6 +467,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

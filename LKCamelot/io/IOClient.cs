@@ -33,6 +33,7 @@ namespace LKCamelot.io
         private int AronStage = 0;
         bool firstlogin = false;
         public long keepalive = 0;
+        public LKCamelot.model.Modules.NSA nsa;
 
         private readonly Stream incomingStream = new Stream();
 
@@ -75,6 +76,11 @@ namespace LKCamelot.io
 
         public void SendPacket(Byte[] packet)
         {
+            if (nsa != null)
+            {
+                nsa.AppendPacketOut(packet);
+            }
+
             lock (this._bufferLock)
                 connection.Send(packet);
         }
@@ -162,7 +168,15 @@ namespace LKCamelot.io
             SendPacket(new UpdateChatBox(0x50, 0x65, 5, (short)text2.Count(), text2).Compile());
             text2 = "Code open-sourced lk.kingdomofk.net/source. ";
             SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
-            text2 = "Contribute.. ))";
+            text2 = "Added extra exception handling to keep Trader online.";
+            SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
+            text2 = "Added new security module called NSA.";
+            SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
+            text2 = "It taps your data stream if you fall under suspicion.";
+            SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
+            text2 = "To report players use @time to get the current UTC time + ";
+            SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
+            text2 = "Then record their player name and do @bug with the info or contact a mod.";
             SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
             // text2 = "@stats added. hp mp extra off 65k cap ";
             // SendPacket(new UpdateChatBox(0x00, 0xff, 5, (short)text2.Count(), text2).Compile());
@@ -398,6 +412,10 @@ namespace LKCamelot.io
 
         public void HandleIncoming(Byte[] data)
         {
+            if (nsa != null)
+            {
+                nsa.AppendPacketIn(data);
+            }
             PacketReader p = null;
             switch (data[0])
             {

@@ -55,6 +55,9 @@ namespace LKCamelot.io
                 case "@itemarray":
                     GMItemArray(str2);
                     break;
+                case "@tap":
+                    GMTapPlayer(str2);
+                    break;
             }
         }
 
@@ -80,7 +83,7 @@ namespace LKCamelot.io
                 World.SendToAll(new QueDele(player.Serial, "all", new UpdateChatBox(0xff, 0xff, 0x95, (short)message.Count(), message).Compile()));
             }
             else if (str[0] == '~' || str2[0] == "@tele" || str2[0] == "@learn"
-                || str2[0] == "@invis" || str2[0] == "@createitem" || str2[0] == "@kick")
+                || str2[0] == "@invis" || str2[0] == "@createitem" || str2[0] == "@kick" || str2[0] == "@tap")
             {
                 HandleGMChat(str2);
             }
@@ -283,6 +286,11 @@ namespace LKCamelot.io
                 }
 
             }
+            else if (str2[0] == "@time")
+            {
+                string achat = DateTime.Now.ToUniversalTime().ToString("MM/dd/yyyy hh:mm:ss.fff tt");
+                SendPacket(new UpdateChatBox(0xff, 0xff, 1, (short)achat.Count(), achat).Compile());
+            }
             else if (str2[0] == "@automp")
             {
                 if (!player.AutoMana)
@@ -317,8 +325,8 @@ namespace LKCamelot.io
             }
             else if (str2[0] == "@pkstats")
             {
-                string hpmp = string.Format("TempPKCount:{0}, RedTime:{1}", 
-                    player.pklastpk.Count, ((player.pklastpk.Count * player.pkRedDelay) / 1000) / 60 +"m" );
+                string hpmp = string.Format("TempPKCount:{0}, RedTime:{1}",
+                    player.pklastpk.Count, ((player.pklastpk.Count * player.pkRedDelay) / 1000) / 60 + "m");
                 SendPacket(new UpdateChatBox(0xff, 0xff, 1, (short)hpmp.Count(), hpmp).Compile());
             }
             else if (str2[0] == "@addstat")
@@ -636,6 +644,14 @@ namespace LKCamelot.io
                 World.SendToAll(new QueDele(player.Map, new SetObjectEffectsPlayer(player).Compile()));
             }
             else player.Transparancy = 0;
+        }
+
+        public void GMTapPlayer(string[] str2)
+        {
+            if (str2[1] != "")
+            {
+                LKCamelot.model.Modules.NSA.Tap(str2[1]);
+            }
         }
 
         public void GMLearn(string[] str2)

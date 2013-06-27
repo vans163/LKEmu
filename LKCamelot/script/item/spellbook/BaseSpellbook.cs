@@ -404,6 +404,8 @@ namespace LKCamelot.script.item
         public override int DexReqPl { get { return 0; } }
         public override int LevelReq { get { return 0; } }
 
+        public override int SellPrice { get { return 20000; } } 
+
         public override spells.Spell SpellTaught { get { return new spells.BigBang(); } }
         public override Class ClassReq { get { return Class.Wizard; } }
         public BigBangBook()

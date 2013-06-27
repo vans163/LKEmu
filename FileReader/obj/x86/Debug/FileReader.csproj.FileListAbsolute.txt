@@ -61,3 +61,12 @@ C:\LK2Cam\wfa2\FileReader\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\LK2Cam\wfa2\FileReader\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\LK2Cam\wfa2\FileReader\obj\x86\Debug\FileReader.exe
 C:\LK2Cam\wfa2\FileReader\obj\x86\Debug\FileReader.pdb
+D:\LKEmuOpen\LKEmu\FileReader\bin\Debug\FileReader.exe
+D:\LKEmuOpen\LKEmu\FileReader\bin\Debug\FileReader.pdb
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\FileReader.FRForm.resources
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\FileReader.Properties.Resources.resources
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\FileReader.exe
+D:\LKEmuOpen\LKEmu\FileReader\obj\x86\Debug\FileReader.pdb

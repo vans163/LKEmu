@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using System.IO;
+
 using Fleck;
 
 namespace LKCamelot
@@ -26,53 +28,66 @@ namespace LKCamelot
             {
                 server.Start(socket =>
                 {
-                    socket.OnOpen = () =>
+                    try
                     {
-                        try
+                        socket.OnOpen = () =>
                         {
-                            Console.WriteLine(string.Format("Open: {0}:{1}", socket.ConnectionInfo.ClientIpAddress, socket.ConnectionInfo.ClientPort));
-                            lock (allSocketsLock)
+                            try
                             {
-                                allSockets.Add(new WebClient(socket, this));
+                                Console.WriteLine(string.Format("Open: {0}:{1}", socket.ConnectionInfo.ClientIpAddress, socket.ConnectionInfo.ClientPort));
+                                lock (allSocketsLock)
+                                {
+                                    allSockets.Add(new WebClient(socket, this));
+                                }
                             }
-                        }
-                        catch { }
-                    };
-                    socket.OnClose = () =>
-                    {
-                        try
+                            catch { }
+                        };
+                        socket.OnClose = () =>
                         {
-                            Console.WriteLine(string.Format("Close: {0}:{1}", socket.ConnectionInfo.ClientIpAddress, socket.ConnectionInfo.ClientPort));
-                            lock (allSocketsLock)
+                            try
+                            {
+                                Console.WriteLine(string.Format("Close: {0}:{1}", socket.ConnectionInfo.ClientIpAddress, socket.ConnectionInfo.ClientPort));
+                                lock (allSocketsLock)
+                                {
+                                    var sock = allSockets.Where(xe => xe != null && xe.iweb == socket).FirstOrDefault();
+
+                                    allSockets.Remove(sock);
+
+                                    sock.player.loggedIn = false;
+                                    sock.player.apistate = 0;
+                                }
+                            }
+                            catch { }
+                        };
+                        socket.OnMessage = message =>
+                        {
+
+                            Console.WriteLine(message);
+                            // allSockets.ToList().ForEach(s => s.Send("Echo: " + message));
+                        };
+                        socket.OnBinary = message =>
+                        {
+                            try
                             {
                                 var sock = allSockets.Where(xe => xe != null && xe.iweb == socket).FirstOrDefault();
-
-                                allSockets.Remove(sock);
-
-                                sock.player.loggedIn = false;
-                                sock.player.apistate = 0;
+                                sock.ProcessMessage(message);
                             }
-                        }
-                        catch { }
-                    };
-                    socket.OnMessage = message =>
+                            catch
+                            {
+                            }
+                            // allSockets.ToList().ForEach(s => s.Send("Echo: " + message));
+                        };
+                    }
+                    catch (Exception e)
                     {
-
-                        Console.WriteLine(message);
-                        // allSockets.ToList().ForEach(s => s.Send("Echo: " + message));
-                    };
-                    socket.OnBinary = message =>
-                    {
-                        try
+                        if (!Directory.Exists("traderexecpts"))
+                            Directory.CreateDirectory("traderexecpts");
+                        using (StreamWriter sw = new StreamWriter("traderexecpts/tradere.txt", true))
                         {
-                            var sock = allSockets.Where(xe => xe != null && xe.iweb == socket).FirstOrDefault();
-                            sock.ProcessMessage(message);
+                            sw.WriteLine(e.Message);
+                            sw.WriteLine(e.StackTrace);
                         }
-                        catch
-                        {
-                        }
-                        // allSockets.ToList().ForEach(s => s.Send("Echo: " + message));
-                    };
+                    }
                 });
             }
             catch
