@@ -71,7 +71,7 @@ namespace LKCamelot.model.Modules
             f += "  [" + DateTime.Now.ToUniversalTime().ToString("MM/dd/yyyy hh:mm:ss.fff tt") + "]";
             f += Environment.NewLine;
             metadata += f;
-            if (metadata.Length > 100)
+            if (metadata.Length > 2000)
             {
                 ArchiveMetaData(metadata);
                 metadata = "";

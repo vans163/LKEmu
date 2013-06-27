@@ -162,7 +162,7 @@ namespace LKCamelot.io
             //01 05 green 
             string text = "Welcome to Last Kingdom Eclipse. ";
             SendPacket(new UpdateChatBox(0x25, 0x65, 5, (short)text.Count(), text).Compile());
-            text = "Version 2.0.5. Alpha. May 31, 2013 : 3:18 UTC ";
+            text = "Version 2.0.6. Alpha. June 26, 2013 : 12:17 UTC ";
             SendPacket(new UpdateChatBox(0x00, 0xff, 20737, (short)text.Count(), text).Compile());
             string text2 = "Dedi: Kernel=Linux 3.2.13, Ram=8.2GB, Cores=4 ";
             SendPacket(new UpdateChatBox(0x50, 0x65, 5, (short)text2.Count(), text2).Compile());
