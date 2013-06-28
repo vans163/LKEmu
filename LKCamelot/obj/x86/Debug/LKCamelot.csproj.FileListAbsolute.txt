@@ -77,3 +77,14 @@ D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\Fleck.pdb
 D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\protobuf-net.pdb
 D:\LKEmuOpen\LKEmu\LKCamelot\bin\Debug\protobuf-net.xml
 D:\LKEmuOpen\LKEmu\LKCamelot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\LKCamelot.exe.config
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\obj\x86\Debug\LKCamelot.exe
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\obj\x86\Debug\LKCamelot.pdb
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\LKCamelot.exe
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\LKCamelot.pdb
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\Fleck.dll
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\protobuf-net.dll
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\Fleck.pdb
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\protobuf-net.pdb
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\bin\Debug\protobuf-net.xml
+C:\Users\Sharon\Desktop\lkcamelot\LKEmu\LKCamelot\obj\x86\Debug\ResolveAssemblyReference.cache

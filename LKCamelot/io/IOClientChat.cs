@@ -19,6 +19,16 @@ namespace LKCamelot.io
 {
     public partial class IOClient
     {
+        public HashSet<string> GMS = new HashSet<string>()
+        {
+            "SIR",
+            "PATHFINDER",
+            "PATHGM1",
+            "PATHGM2",
+            "PATHGM3"
+        };
+
+
         public void UpdateChat(string text, byte c1 = 0xff, byte c2 = 0xff, byte cb = 1)
         {
             SendPacket(new UpdateChatBox(c1, c2, 1, (short)text.Count(), text).Compile());
@@ -26,7 +36,7 @@ namespace LKCamelot.io
 
         public void HandleGMChat(string[] str2)
         {
-            if (player.Name != "SIR" && player.Name != "PATHFINDER")
+            if (!GMS.Contains(player.Name))
                 return;
 
             if (str2[0][0] == '~')
@@ -371,7 +381,7 @@ namespace LKCamelot.io
             }
             else if (str2[0] == "@tele")
             {
-                if (player.Name != "SIR" && player.Name != "PATHFINDER")
+                if (!GMS.Contains(player.Name))
                     return;
                 if (str2.Count() == 2)
                 {
@@ -391,7 +401,7 @@ namespace LKCamelot.io
             }
             else if (str2[0] == "@learn")
             {
-                if (player.Name != "SIR" && player.Name != "PATHFINDER")
+               if (!GMS.Contains(player.Name))
                     return;
                 try
                 {
@@ -407,7 +417,7 @@ namespace LKCamelot.io
             }
             else if (str2[0] == "@invis")
             {
-                if (player.Name != "SIR" && player.Name != "PATHFINDER")
+                if (!GMS.Contains(player.Name))
                     return;
                 if (player.Transparancy == 0)
                 {
@@ -434,7 +444,7 @@ namespace LKCamelot.io
             }
             else if (str2[0] == "@kick")
             {
-                if (player.Name != "SIR" && player.Name != "PATHFINDER")
+                if (!GMS.Contains(player.Name))
                     return;
 
                 if (str2[1] != "")
@@ -484,7 +494,7 @@ namespace LKCamelot.io
                 {
                     ChatTimeout = LKCamelot.Server.tickcount.ElapsedMilliseconds;
                     string rankr = "Ranks: ";
-                    var keys = handler.add.Values.Where(xe => xe != null && xe.Name.ToUpper() != "PATHFINDER" && xe.Name.ToUpper() != "SIR").ToList();
+                    var keys = handler.add.Values.Where(xe => xe != null && !GMS.Contains(xe.Name.ToUpper())).ToList();
                     var kl = keys.OrderByDescending(xe => xe.Level).ToList();
                     if (kl.Count > 25)
                         kl.RemoveRange(24, kl.Count - 24 - 1);
@@ -506,7 +516,8 @@ namespace LKCamelot.io
                         SendPacket(new UpdateChatBox(0xff, 0xff, 1, (short)rankr.Count(), rankr).Compile());
                         rankr = "";
                     }
-                    var online = handler.add.Values.Where(xe => xe != null && xe.Name.ToUpper() != "PATHFINDER" && xe.Name.ToUpper() != "SIR" && xe.loggedIn && xe.apistate == 0).ToList();
+                    
+                    var online = handler.add.Values.Where(xe => xe != null && !GMS.Contains(xe.Name.ToUpper())).ToList();
                     rankr = string.Format("Players Online: {0}", online.Count);
                     SendPacket(new UpdateChatBox(0xff, 0xff, 1, (short)rankr.Count(), rankr).Compile());
                 }
